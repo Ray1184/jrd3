@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- List of all mapped scripts to load. -->
+<root>
+    <firstScript id="Loading"/>
+    <scripts>
+        <script id="Loading" renderer="GUI2D" path="/Scripts/rooms/2d/Loading.groovy"/>
+        <script id="Basement" renderer="RETRO25D" path="/Scripts/rooms/r25d/Basement.groovy"/>
+        <script id="Garden" renderer="RETRO25D" path="/Scripts/rooms/r25d/Garden.groovy"/>
+        <script id="Inventory" renderer="GUI2D" path="/Scripts/rooms/2d/Inventory.groovy"/>
+        <script id="Picking" renderer="GUI2D" path="/Scripts/rooms/2d/Picking.groovy"/>
+        <script id="Book" renderer="GUI2D" path="/Scripts/rooms/2d/Book.groovy"/>
+    </scripts>
+</root>

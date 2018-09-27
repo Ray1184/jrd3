@@ -1,0 +1,16 @@
+group 'org.jrd3'
+version "${jrd3Version}"
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.processing:core:${processingVersion}"
+    compile "org.joml:joml:$jomlVersion"
+    compile project(":jrd3-engine")
+}

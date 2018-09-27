@@ -1,0 +1,31 @@
+import org.gradle.internal.os.OperatingSystem
+
+project.ext.jrd3Version = "1.0-SNAPSHOT"
+project.ext.lwjglVersion = "3.2.0"
+project.ext.jomlVersion = "1.9.11"
+project.ext.groovyVersion = "2.3.11"
+project.ext.processingVersion = "3.3.6"
+project.ext.hipsterVersion = "1.0.1"
+
+switch (OperatingSystem.current()) {
+    case OperatingSystem.WINDOWS:
+        project.ext.lwjglNatives = "natives-windows"
+        break
+    case OperatingSystem.LINUX:
+        project.ext.lwjglNatives = "natives-linux"
+        break
+    case OperatingSystem.MAC_OS:
+        project.ext.lwjglNatives = "natives-macos"
+        break
+}
+
+group 'org.jrd3'
+version "${jrd3Version}"
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}

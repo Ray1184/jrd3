@@ -1,0 +1,1002 @@
+DEBUG 2018-09-27 16:01:44.812 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 0
+DEBUG 2018-09-27 16:01:45.363 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 1
+DEBUG 2018-09-27 16:01:46.728 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 0
+DEBUG 2018-09-27 16:01:46.938 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 1
+DEBUG 2018-09-27 16:01:46.962 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 2
+DEBUG 2018-09-27 16:01:46.965 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 3
+DEBUG 2018-09-27 16:01:46.968 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 4
+DEBUG 2018-09-27 16:01:46.973 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 5
+DEBUG 2018-09-27 16:01:46.976 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 6
+DEBUG 2018-09-27 16:01:46.983 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 7
+DEBUG 2018-09-27 16:01:46.988 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 8
+DEBUG 2018-09-27 16:01:46.994 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 9
+DEBUG 2018-09-27 16:01:46.999 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 10
+DEBUG 2018-09-27 16:01:47.008 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 11
+DEBUG 2018-09-27 16:01:47.013 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 12
+DEBUG 2018-09-27 16:01:47.017 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 13
+DEBUG 2018-09-27 16:01:47.021 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 14
+DEBUG 2018-09-27 16:01:47.026 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 15
+DEBUG 2018-09-27 16:01:47.031 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 16
+DEBUG 2018-09-27 16:01:47.036 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 17
+DEBUG 2018-09-27 16:01:47.040 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 18
+DEBUG 2018-09-27 16:01:47.045 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 19
+DEBUG 2018-09-27 16:01:47.087 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 20
+DEBUG 2018-09-27 16:01:47.122 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 21
+DEBUG 2018-09-27 16:01:47.177 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 22
+DEBUG 2018-09-27 16:01:47.208 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 2
+DEBUG 2018-09-27 16:01:47.326 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 23
+DEBUG 2018-09-27 16:01:47.338 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 24
+DEBUG 2018-09-27 16:01:47.352 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 25
+DEBUG 2018-09-27 16:01:47.377 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 26
+DEBUG 2018-09-27 16:01:47.393 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 3
+DEBUG 2018-09-27 16:01:47.413 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 27
+DEBUG 2018-09-27 16:01:47.421 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:01:47.422 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:01:47.422 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:01:47.422 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 4
+DEBUG 2018-09-27 16:01:47.423 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:01:47.423 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:01:47.423 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:01:47.423 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 4
+DEBUG 2018-09-27 16:01:47.423 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:01:47.441 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 29
+DEBUG 2018-09-27 16:01:47.460 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 30
+DEBUG 2018-09-27 16:01:47.475 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 4
+DEBUG 2018-09-27 16:01:47.492 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 31
+DEBUG 2018-09-27 16:01:47.498 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 32
+DEBUG 2018-09-27 16:01:47.510 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 33
+DEBUG 2018-09-27 16:01:47.525 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 34
+DEBUG 2018-09-27 16:01:47.541 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 5
+DEBUG 2018-09-27 16:01:47.556 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 35
+DEBUG 2018-09-27 16:01:47.558 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 36
+DEBUG 2018-09-27 16:01:47.572 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 36
+DEBUG 2018-09-27 16:01:47.596 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 37
+DEBUG 2018-09-27 16:01:47.611 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 38
+DEBUG 2018-09-27 16:01:47.612 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 6
+DEBUG 2018-09-27 16:01:47.612 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 38
+DEBUG 2018-09-27 16:01:47.631 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 39
+DEBUG 2018-09-27 16:01:47.650 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 40
+DEBUG 2018-09-27 16:01:47.651 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 6
+DEBUG 2018-09-27 16:01:47.677 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 40
+DEBUG 2018-09-27 16:01:47.690 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 41
+DEBUG 2018-09-27 16:01:47.703 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 42
+DEBUG 2018-09-27 16:01:47.714 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 7
+DEBUG 2018-09-27 16:01:47.750 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 43
+DEBUG 2018-09-27 16:01:47.751 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 44
+DEBUG 2018-09-27 16:01:47.753 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 45
+DEBUG 2018-09-27 16:01:47.777 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 46
+DEBUG 2018-09-27 16:01:47.788 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 47
+DEBUG 2018-09-27 16:01:47.820 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 48
+DEBUG 2018-09-27 16:01:47.831 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 49
+DEBUG 2018-09-27 16:01:47.843 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 50
+DEBUG 2018-09-27 16:01:49.766 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:01:49.775 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:01:49.844 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:01:49.845 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:01:49.845 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:01:49.845 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:01:49.845 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:01:49.845 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:01:49.846 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:01:49.846 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:01:49.882 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+ERROR 2018-09-27 16:01:49.894 [MainLoop] org.jrd3.engine.core.utils.ErrorHandler: org.jrd3.engine.core.exceptions.JRD3Exception: java.lang.reflect.UndeclaredThrowableException
+	at org.jrd3.engine.playenv.states.Retro25DState.init(Retro25DState.java:42)
+	at org.jrd3.engine.core.sim.BasicApp.update(BasicApp.java:86)
+	at org.jrd3.engine.core.sim.Simulator.update(Simulator.java:136)
+	at org.jrd3.engine.core.sim.Simulator.gameLoop(Simulator.java:99)
+	at org.jrd3.engine.core.sim.Simulator.run(Simulator.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.UndeclaredThrowableException
+	at com.sun.proxy.$Proxy10.onInit(Unknown Source)
+	at org.jrd3.engine.playenv.states.Retro25DState.init(Retro25DState.java:40)
+	... 5 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jrd3.engine.core.sim.scripting.ScriptUtils.lambda$loadScriptCallback$0(ScriptUtils.java:66)
+	... 7 more
+Caused by: groovy.lang.GroovyRuntimeException: Could not find matching constructor for: org.joml.Quaternionf(java.lang.Float, java.lang.Float, java.lang.Float)
+	at groovy.lang.MetaClassImpl.invokeConstructor(MetaClassImpl.java:1722)
+	at groovy.lang.MetaClassImpl.invokeConstructor(MetaClassImpl.java:1525)
+	at org.codehaus.groovy.runtime.callsite.MetaClassConstructorSite.callConstructor(MetaClassConstructorSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:182)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:198)
+	at Scripts.rooms.r25d.Script2.onInit(Script2.groovy:161)
+	... 12 more
+
+null
+DEBUG 2018-09-27 16:04:51.187 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 0
+DEBUG 2018-09-27 16:04:51.687 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 1
+DEBUG 2018-09-27 16:04:53.026 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 0
+DEBUG 2018-09-27 16:04:53.193 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 1
+DEBUG 2018-09-27 16:04:53.218 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 2
+DEBUG 2018-09-27 16:04:53.222 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 3
+DEBUG 2018-09-27 16:04:53.225 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 4
+DEBUG 2018-09-27 16:04:53.230 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 5
+DEBUG 2018-09-27 16:04:53.236 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 6
+DEBUG 2018-09-27 16:04:53.241 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 7
+DEBUG 2018-09-27 16:04:53.247 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 8
+DEBUG 2018-09-27 16:04:53.252 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 9
+DEBUG 2018-09-27 16:04:53.257 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 10
+DEBUG 2018-09-27 16:04:53.266 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 11
+DEBUG 2018-09-27 16:04:53.271 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 12
+DEBUG 2018-09-27 16:04:53.276 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 13
+DEBUG 2018-09-27 16:04:53.280 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 14
+DEBUG 2018-09-27 16:04:53.285 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 15
+DEBUG 2018-09-27 16:04:53.289 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 16
+DEBUG 2018-09-27 16:04:53.294 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 17
+DEBUG 2018-09-27 16:04:53.299 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 18
+DEBUG 2018-09-27 16:04:53.304 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 19
+DEBUG 2018-09-27 16:04:53.346 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 20
+DEBUG 2018-09-27 16:04:53.378 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 21
+DEBUG 2018-09-27 16:04:53.431 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 22
+DEBUG 2018-09-27 16:04:53.455 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 2
+DEBUG 2018-09-27 16:04:53.577 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 23
+DEBUG 2018-09-27 16:04:53.596 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 24
+DEBUG 2018-09-27 16:04:53.615 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 25
+DEBUG 2018-09-27 16:04:53.641 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 26
+DEBUG 2018-09-27 16:04:53.652 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 3
+DEBUG 2018-09-27 16:04:53.669 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 27
+DEBUG 2018-09-27 16:04:53.678 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:04:53.678 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:04:53.678 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:04:53.678 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 4
+DEBUG 2018-09-27 16:04:53.679 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:04:53.679 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:04:53.679 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:04:53.679 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 4
+DEBUG 2018-09-27 16:04:53.680 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:04:53.693 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 29
+DEBUG 2018-09-27 16:04:53.708 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 30
+DEBUG 2018-09-27 16:04:53.724 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 4
+DEBUG 2018-09-27 16:04:53.740 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 31
+DEBUG 2018-09-27 16:04:53.745 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 32
+DEBUG 2018-09-27 16:04:53.762 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 33
+DEBUG 2018-09-27 16:04:53.781 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 34
+DEBUG 2018-09-27 16:04:53.797 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 5
+DEBUG 2018-09-27 16:04:53.814 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 35
+DEBUG 2018-09-27 16:04:53.816 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 36
+DEBUG 2018-09-27 16:04:53.827 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 36
+DEBUG 2018-09-27 16:04:53.851 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 37
+DEBUG 2018-09-27 16:04:53.868 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 38
+DEBUG 2018-09-27 16:04:53.869 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 6
+DEBUG 2018-09-27 16:04:53.869 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 38
+DEBUG 2018-09-27 16:04:53.889 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 39
+DEBUG 2018-09-27 16:04:53.911 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 40
+DEBUG 2018-09-27 16:04:53.912 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 6
+DEBUG 2018-09-27 16:04:53.941 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 40
+DEBUG 2018-09-27 16:04:53.960 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 41
+DEBUG 2018-09-27 16:04:53.981 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 42
+DEBUG 2018-09-27 16:04:53.995 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 7
+DEBUG 2018-09-27 16:04:54.036 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 43
+DEBUG 2018-09-27 16:04:54.043 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 44
+DEBUG 2018-09-27 16:04:54.049 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 45
+DEBUG 2018-09-27 16:04:54.084 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 46
+DEBUG 2018-09-27 16:04:54.111 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 47
+DEBUG 2018-09-27 16:04:54.134 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 48
+DEBUG 2018-09-27 16:04:54.147 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 49
+DEBUG 2018-09-27 16:04:54.163 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 50
+DEBUG 2018-09-27 16:04:55.467 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:04:55.475 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:04:55.543 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:04:55.544 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:04:55.544 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:04:55.544 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:04:55.545 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:04:55.545 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:04:55.545 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:04:55.545 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:04:55.591 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+ERROR 2018-09-27 16:04:55.606 [MainLoop] org.jrd3.engine.core.utils.ErrorHandler: org.jrd3.engine.core.exceptions.JRD3Exception: java.lang.reflect.UndeclaredThrowableException
+	at org.jrd3.engine.playenv.states.Retro25DState.init(Retro25DState.java:42)
+	at org.jrd3.engine.core.sim.BasicApp.update(BasicApp.java:86)
+	at org.jrd3.engine.core.sim.Simulator.update(Simulator.java:136)
+	at org.jrd3.engine.core.sim.Simulator.gameLoop(Simulator.java:99)
+	at org.jrd3.engine.core.sim.Simulator.run(Simulator.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.UndeclaredThrowableException
+	at com.sun.proxy.$Proxy10.onInit(Unknown Source)
+	at org.jrd3.engine.playenv.states.Retro25DState.init(Retro25DState.java:40)
+	... 5 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jrd3.engine.core.sim.scripting.ScriptUtils.lambda$loadScriptCallback$0(ScriptUtils.java:66)
+	... 7 more
+Caused by: groovy.lang.GroovyRuntimeException: Could not find matching constructor for: org.joml.Quaternionf(java.lang.Float, java.lang.Float, java.lang.Float)
+	at groovy.lang.MetaClassImpl.invokeConstructor(MetaClassImpl.java:1722)
+	at groovy.lang.MetaClassImpl.invokeConstructor(MetaClassImpl.java:1525)
+	at org.codehaus.groovy.runtime.callsite.MetaClassConstructorSite.callConstructor(MetaClassConstructorSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:182)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:198)
+	at Scripts.rooms.r25d.Script2.onInit(Script2.groovy:161)
+	... 12 more
+
+null
+DEBUG 2018-09-27 16:05:53.430 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 0
+DEBUG 2018-09-27 16:05:53.908 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 1
+DEBUG 2018-09-27 16:05:55.222 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 0
+DEBUG 2018-09-27 16:05:55.428 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 1
+DEBUG 2018-09-27 16:05:55.463 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 2
+DEBUG 2018-09-27 16:05:55.467 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 3
+DEBUG 2018-09-27 16:05:55.471 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 4
+DEBUG 2018-09-27 16:05:55.475 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 5
+DEBUG 2018-09-27 16:05:55.479 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 6
+DEBUG 2018-09-27 16:05:55.482 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 7
+DEBUG 2018-09-27 16:05:55.485 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 8
+DEBUG 2018-09-27 16:05:55.488 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 9
+DEBUG 2018-09-27 16:05:55.492 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 10
+DEBUG 2018-09-27 16:05:55.497 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 11
+DEBUG 2018-09-27 16:05:55.500 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 12
+DEBUG 2018-09-27 16:05:55.502 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 13
+DEBUG 2018-09-27 16:05:55.504 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 14
+DEBUG 2018-09-27 16:05:55.506 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 15
+DEBUG 2018-09-27 16:05:55.508 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 16
+DEBUG 2018-09-27 16:05:55.511 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 17
+DEBUG 2018-09-27 16:05:55.514 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 18
+DEBUG 2018-09-27 16:05:55.516 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 19
+DEBUG 2018-09-27 16:05:55.557 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 20
+DEBUG 2018-09-27 16:05:55.589 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 21
+DEBUG 2018-09-27 16:05:55.641 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 22
+DEBUG 2018-09-27 16:05:55.668 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 2
+DEBUG 2018-09-27 16:05:55.752 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 23
+DEBUG 2018-09-27 16:05:55.768 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 24
+DEBUG 2018-09-27 16:05:55.787 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 25
+DEBUG 2018-09-27 16:05:55.815 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 26
+DEBUG 2018-09-27 16:05:55.833 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 3
+DEBUG 2018-09-27 16:05:55.855 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 27
+DEBUG 2018-09-27 16:05:55.865 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:05:55.866 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:05:55.866 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:05:55.866 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 4
+DEBUG 2018-09-27 16:05:55.866 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:05:55.867 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:05:55.867 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:05:55.867 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 4
+DEBUG 2018-09-27 16:05:55.867 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:05:55.886 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 29
+DEBUG 2018-09-27 16:05:55.907 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 30
+DEBUG 2018-09-27 16:05:55.928 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 4
+DEBUG 2018-09-27 16:05:55.945 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 31
+DEBUG 2018-09-27 16:05:55.951 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 32
+DEBUG 2018-09-27 16:05:55.967 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 33
+DEBUG 2018-09-27 16:05:55.986 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 34
+DEBUG 2018-09-27 16:05:56.002 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 5
+DEBUG 2018-09-27 16:05:56.017 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 35
+DEBUG 2018-09-27 16:05:56.019 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 36
+DEBUG 2018-09-27 16:05:56.032 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 36
+DEBUG 2018-09-27 16:05:56.056 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 37
+DEBUG 2018-09-27 16:05:56.072 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 38
+DEBUG 2018-09-27 16:05:56.073 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 6
+DEBUG 2018-09-27 16:05:56.073 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 38
+DEBUG 2018-09-27 16:05:56.091 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 39
+DEBUG 2018-09-27 16:05:56.133 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 40
+DEBUG 2018-09-27 16:05:56.135 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 6
+DEBUG 2018-09-27 16:05:56.205 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 40
+DEBUG 2018-09-27 16:05:56.229 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 41
+DEBUG 2018-09-27 16:05:56.242 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 42
+DEBUG 2018-09-27 16:05:56.254 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 7
+DEBUG 2018-09-27 16:05:56.290 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 43
+DEBUG 2018-09-27 16:05:56.291 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 44
+DEBUG 2018-09-27 16:05:56.292 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 45
+DEBUG 2018-09-27 16:05:56.316 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 46
+DEBUG 2018-09-27 16:05:56.339 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 47
+DEBUG 2018-09-27 16:05:56.358 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 48
+DEBUG 2018-09-27 16:05:56.369 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 49
+DEBUG 2018-09-27 16:05:56.382 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 50
+DEBUG 2018-09-27 16:06:24.376 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:06:24.385 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:06:24.460 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:06:24.461 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:06:24.461 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:06:24.461 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:06:24.462 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:06:24.462 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:06:24.462 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:06:24.462 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:06:24.496 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+ERROR 2018-09-27 16:06:24.506 [MainLoop] org.jrd3.engine.core.utils.ErrorHandler: org.jrd3.engine.core.exceptions.JRD3Exception: java.lang.reflect.UndeclaredThrowableException
+	at org.jrd3.engine.playenv.states.Retro25DState.init(Retro25DState.java:42)
+	at org.jrd3.engine.core.sim.BasicApp.update(BasicApp.java:86)
+	at org.jrd3.engine.core.sim.Simulator.update(Simulator.java:136)
+	at org.jrd3.engine.core.sim.Simulator.gameLoop(Simulator.java:99)
+	at org.jrd3.engine.core.sim.Simulator.run(Simulator.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.UndeclaredThrowableException
+	at com.sun.proxy.$Proxy10.onInit(Unknown Source)
+	at org.jrd3.engine.playenv.states.Retro25DState.init(Retro25DState.java:40)
+	... 5 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jrd3.engine.core.sim.scripting.ScriptUtils.lambda$loadScriptCallback$0(ScriptUtils.java:66)
+	... 7 more
+Caused by: groovy.lang.GroovyRuntimeException: Could not find matching constructor for: org.joml.Quaternionf(java.lang.Float, java.lang.Float, java.lang.Float)
+	at groovy.lang.MetaClassImpl.invokeConstructor(MetaClassImpl.java:1722)
+	at groovy.lang.MetaClassImpl.invokeConstructor(MetaClassImpl.java:1525)
+	at org.codehaus.groovy.runtime.callsite.MetaClassConstructorSite.callConstructor(MetaClassConstructorSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:182)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:198)
+	at Scripts.rooms.r25d.Script2.onInit(Script2.groovy:161)
+	... 12 more
+
+null
+DEBUG 2018-09-27 16:07:08.716 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 0
+DEBUG 2018-09-27 16:07:09.191 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 1
+DEBUG 2018-09-27 16:07:10.618 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 0
+DEBUG 2018-09-27 16:07:10.826 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 1
+DEBUG 2018-09-27 16:07:10.863 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 2
+DEBUG 2018-09-27 16:07:10.867 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 3
+DEBUG 2018-09-27 16:07:10.871 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 4
+DEBUG 2018-09-27 16:07:10.875 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 5
+DEBUG 2018-09-27 16:07:10.880 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 6
+DEBUG 2018-09-27 16:07:10.884 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 7
+DEBUG 2018-09-27 16:07:10.888 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 8
+DEBUG 2018-09-27 16:07:10.891 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 9
+DEBUG 2018-09-27 16:07:10.894 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 10
+DEBUG 2018-09-27 16:07:10.901 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 11
+DEBUG 2018-09-27 16:07:10.904 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 12
+DEBUG 2018-09-27 16:07:10.906 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 13
+DEBUG 2018-09-27 16:07:10.908 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 14
+DEBUG 2018-09-27 16:07:10.910 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 15
+DEBUG 2018-09-27 16:07:10.913 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 16
+DEBUG 2018-09-27 16:07:10.916 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 17
+DEBUG 2018-09-27 16:07:10.919 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 18
+DEBUG 2018-09-27 16:07:10.922 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 19
+DEBUG 2018-09-27 16:07:10.959 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 20
+DEBUG 2018-09-27 16:07:10.990 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 21
+DEBUG 2018-09-27 16:07:11.058 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 22
+DEBUG 2018-09-27 16:07:11.088 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 2
+DEBUG 2018-09-27 16:07:11.210 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 23
+DEBUG 2018-09-27 16:07:11.231 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 24
+DEBUG 2018-09-27 16:07:11.248 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 25
+DEBUG 2018-09-27 16:07:11.275 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 26
+DEBUG 2018-09-27 16:07:11.293 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 3
+DEBUG 2018-09-27 16:07:11.314 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 27
+DEBUG 2018-09-27 16:07:11.328 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:07:11.328 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:07:11.329 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:07:11.329 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 4
+DEBUG 2018-09-27 16:07:11.330 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:07:11.330 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:07:11.330 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:07:11.331 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 4
+DEBUG 2018-09-27 16:07:11.331 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:07:11.356 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 29
+DEBUG 2018-09-27 16:07:11.377 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 30
+DEBUG 2018-09-27 16:07:11.395 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 4
+DEBUG 2018-09-27 16:07:11.413 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 31
+DEBUG 2018-09-27 16:07:11.420 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 32
+DEBUG 2018-09-27 16:07:11.436 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 33
+DEBUG 2018-09-27 16:07:11.457 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 34
+DEBUG 2018-09-27 16:07:11.470 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 5
+DEBUG 2018-09-27 16:07:11.485 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 35
+DEBUG 2018-09-27 16:07:11.486 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 36
+DEBUG 2018-09-27 16:07:11.498 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 36
+DEBUG 2018-09-27 16:07:11.523 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 37
+DEBUG 2018-09-27 16:07:11.544 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 38
+DEBUG 2018-09-27 16:07:11.545 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 6
+DEBUG 2018-09-27 16:07:11.545 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 38
+DEBUG 2018-09-27 16:07:11.563 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 39
+DEBUG 2018-09-27 16:07:11.579 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 40
+DEBUG 2018-09-27 16:07:11.580 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 6
+DEBUG 2018-09-27 16:07:11.603 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 40
+DEBUG 2018-09-27 16:07:11.616 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 41
+DEBUG 2018-09-27 16:07:11.630 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 42
+DEBUG 2018-09-27 16:07:11.641 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 7
+DEBUG 2018-09-27 16:07:11.674 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 43
+DEBUG 2018-09-27 16:07:11.676 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 44
+DEBUG 2018-09-27 16:07:11.678 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 45
+DEBUG 2018-09-27 16:07:11.702 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 46
+DEBUG 2018-09-27 16:07:11.713 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 47
+DEBUG 2018-09-27 16:07:11.732 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 48
+DEBUG 2018-09-27 16:07:11.743 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 49
+DEBUG 2018-09-27 16:07:11.755 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 50
+DEBUG 2018-09-27 16:07:13.083 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:07:13.092 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:07:13.165 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:07:13.166 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:07:13.166 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:07:13.166 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:07:13.166 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:07:13.166 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:07:13.166 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:07:13.167 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:07:13.202 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:07:17.013 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 51
+DEBUG 2018-09-27 16:07:17.014 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 51
+DEBUG 2018-09-27 16:07:17.015 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:07:17.015 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 51
+DEBUG 2018-09-27 16:07:17.015 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 51
+DEBUG 2018-09-27 16:07:17.015 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 51
+DEBUG 2018-09-27 16:07:17.016 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:07:17.016 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:07:20.213 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:07:20.213 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:07:20.221 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 52
+DEBUG 2018-09-27 16:07:20.221 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 52
+DEBUG 2018-09-27 16:07:20.221 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 52
+DEBUG 2018-09-27 16:07:20.221 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 52
+DEBUG 2018-09-27 16:07:20.221 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 52
+DEBUG 2018-09-27 16:07:20.222 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 52
+DEBUG 2018-09-27 16:07:20.222 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 52
+DEBUG 2018-09-27 16:07:20.222 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 52
+DEBUG 2018-09-27 16:07:20.231 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:07:24.013 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+ERROR 2018-09-27 16:07:24.024 [MainLoop] org.jrd3.engine.core.utils.ErrorHandler: org.jrd3.engine.core.exceptions.JRD3Exception: java.lang.reflect.UndeclaredThrowableException
+	at org.jrd3.engine.playenv.states.GUI2DState.init(GUI2DState.java:42)
+	at org.jrd3.engine.core.sim.BasicApp.update(BasicApp.java:86)
+	at org.jrd3.engine.core.sim.Simulator.update(Simulator.java:136)
+	at org.jrd3.engine.core.sim.Simulator.gameLoop(Simulator.java:99)
+	at org.jrd3.engine.core.sim.Simulator.run(Simulator.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.UndeclaredThrowableException
+	at com.sun.proxy.$Proxy13.onInit(Unknown Source)
+	at org.jrd3.engine.playenv.states.GUI2DState.init(GUI2DState.java:40)
+	... 5 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jrd3.engine.core.sim.scripting.ScriptUtils.lambda$loadScriptCallback$0(ScriptUtils.java:66)
+	... 7 more
+Caused by: groovy.lang.MissingMethodException: No signature of method: org.joml.Quaternionf.rotate() is applicable for argument types: (java.lang.Float, java.lang.Integer, java.lang.Integer) values: [0.2617994, 0, 0]
+Possible solutions: rotateX(float), rotateX(float, org.joml.Quaternionf), rotateY(float), rotateY(float, org.joml.Quaternionf), rotateZ(float), rotateZ(float, org.joml.Quaternionf)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:56)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaClassSite.call(PojoMetaClassSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:124)
+	at Scripts.gui.Script5.onInit(Script5.groovy:45)
+	... 12 more
+
+null
+DEBUG 2018-09-27 16:10:35.035 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 0
+DEBUG 2018-09-27 16:10:35.541 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 1
+DEBUG 2018-09-27 16:10:36.912 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 0
+DEBUG 2018-09-27 16:10:37.107 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 1
+DEBUG 2018-09-27 16:10:37.136 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 2
+DEBUG 2018-09-27 16:10:37.139 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 3
+DEBUG 2018-09-27 16:10:37.142 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 4
+DEBUG 2018-09-27 16:10:37.147 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 5
+DEBUG 2018-09-27 16:10:37.153 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 6
+DEBUG 2018-09-27 16:10:37.158 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 7
+DEBUG 2018-09-27 16:10:37.163 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 8
+DEBUG 2018-09-27 16:10:37.169 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 9
+DEBUG 2018-09-27 16:10:37.175 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 10
+DEBUG 2018-09-27 16:10:37.183 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 11
+DEBUG 2018-09-27 16:10:37.188 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 12
+DEBUG 2018-09-27 16:10:37.192 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 13
+DEBUG 2018-09-27 16:10:37.197 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 14
+DEBUG 2018-09-27 16:10:37.201 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 15
+DEBUG 2018-09-27 16:10:37.205 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 16
+DEBUG 2018-09-27 16:10:37.210 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 17
+DEBUG 2018-09-27 16:10:37.214 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 18
+DEBUG 2018-09-27 16:10:37.219 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 19
+DEBUG 2018-09-27 16:10:37.261 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 20
+DEBUG 2018-09-27 16:10:37.299 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 21
+DEBUG 2018-09-27 16:10:37.357 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 22
+DEBUG 2018-09-27 16:10:37.382 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 2
+DEBUG 2018-09-27 16:10:37.500 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 23
+DEBUG 2018-09-27 16:10:37.515 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 24
+DEBUG 2018-09-27 16:10:37.534 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 25
+DEBUG 2018-09-27 16:10:37.563 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 26
+DEBUG 2018-09-27 16:10:37.579 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 3
+DEBUG 2018-09-27 16:10:37.596 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 27
+DEBUG 2018-09-27 16:10:37.609 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:10:37.609 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:10:37.610 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:10:37.610 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 4
+DEBUG 2018-09-27 16:10:37.610 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:10:37.611 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:10:37.611 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:10:37.611 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 4
+DEBUG 2018-09-27 16:10:37.611 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:10:37.627 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 29
+DEBUG 2018-09-27 16:10:37.645 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 30
+DEBUG 2018-09-27 16:10:37.664 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 4
+DEBUG 2018-09-27 16:10:37.679 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 31
+DEBUG 2018-09-27 16:10:37.690 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 32
+DEBUG 2018-09-27 16:10:37.706 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 33
+DEBUG 2018-09-27 16:10:37.726 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 34
+DEBUG 2018-09-27 16:10:37.739 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 5
+DEBUG 2018-09-27 16:10:37.753 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 35
+DEBUG 2018-09-27 16:10:37.755 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 36
+DEBUG 2018-09-27 16:10:37.771 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 36
+DEBUG 2018-09-27 16:10:37.794 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 37
+DEBUG 2018-09-27 16:10:37.813 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 38
+DEBUG 2018-09-27 16:10:37.814 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 6
+DEBUG 2018-09-27 16:10:37.814 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 38
+DEBUG 2018-09-27 16:10:37.830 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 39
+DEBUG 2018-09-27 16:10:37.847 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 40
+DEBUG 2018-09-27 16:10:37.848 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 6
+DEBUG 2018-09-27 16:10:37.871 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 40
+DEBUG 2018-09-27 16:10:37.884 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 41
+DEBUG 2018-09-27 16:10:37.898 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 42
+DEBUG 2018-09-27 16:10:37.909 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 7
+DEBUG 2018-09-27 16:10:37.943 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 43
+DEBUG 2018-09-27 16:10:37.945 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 44
+DEBUG 2018-09-27 16:10:37.947 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 45
+DEBUG 2018-09-27 16:10:37.970 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 46
+DEBUG 2018-09-27 16:10:37.981 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 47
+DEBUG 2018-09-27 16:10:38.000 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 48
+DEBUG 2018-09-27 16:10:38.010 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 49
+DEBUG 2018-09-27 16:10:38.022 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 50
+DEBUG 2018-09-27 16:10:49.088 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:10:49.098 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:10:49.167 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:10:49.167 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:10:49.168 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:10:49.168 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:10:49.168 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:10:49.168 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:10:49.168 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:10:49.168 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:10:49.201 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:10:50.679 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 51
+DEBUG 2018-09-27 16:10:50.680 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 51
+DEBUG 2018-09-27 16:10:50.680 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:10:50.680 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 51
+DEBUG 2018-09-27 16:10:50.681 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 51
+DEBUG 2018-09-27 16:10:50.681 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 51
+DEBUG 2018-09-27 16:10:50.681 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:10:50.681 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:10:51.845 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:10:51.846 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:10:51.854 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 52
+DEBUG 2018-09-27 16:10:51.854 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 52
+DEBUG 2018-09-27 16:10:51.854 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 52
+DEBUG 2018-09-27 16:10:51.854 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 52
+DEBUG 2018-09-27 16:10:51.855 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 52
+DEBUG 2018-09-27 16:10:51.855 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 52
+DEBUG 2018-09-27 16:10:51.855 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 52
+DEBUG 2018-09-27 16:10:51.855 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 52
+DEBUG 2018-09-27 16:10:51.866 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:10:59.845 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:10:59.846 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 52
+DEBUG 2018-09-27 16:10:59.848 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:10:59.848 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:10:59.848 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:10:59.848 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:11:01.376 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:11:01.377 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:11:01.383 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:11:01.383 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:11:01.383 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:11:01.383 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:11:01.383 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:11:01.383 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:11:01.383 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:11:01.383 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:11:03.043 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:11:03.043 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:11:03.043 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:11:03.044 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:11:03.054 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 54
+DEBUG 2018-09-27 16:11:03.054 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 54
+DEBUG 2018-09-27 16:11:03.055 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:11:03.055 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 54
+DEBUG 2018-09-27 16:11:04.176 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 54
+DEBUG 2018-09-27 16:11:04.181 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 55
+DEBUG 2018-09-27 16:11:04.235 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 56
+DEBUG 2018-09-27 16:11:04.283 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 57
+DEBUG 2018-09-27 16:11:05.510 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:11:05.510 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:11:05.513 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 58
+DEBUG 2018-09-27 16:11:05.514 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 58
+DEBUG 2018-09-27 16:11:05.514 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 58
+DEBUG 2018-09-27 16:11:05.514 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 58
+DEBUG 2018-09-27 16:11:05.514 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 58
+DEBUG 2018-09-27 16:11:05.514 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 58
+DEBUG 2018-09-27 16:11:05.514 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 58
+DEBUG 2018-09-27 16:11:05.514 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 58
+DEBUG 2018-09-27 16:11:11.610 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:11:11.610 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:11:11.638 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 58
+DEBUG 2018-09-27 16:11:11.639 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 58
+DEBUG 2018-09-27 16:11:11.639 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 58
+DEBUG 2018-09-27 16:11:11.639 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 58
+DEBUG 2018-09-27 16:11:11.639 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 58
+DEBUG 2018-09-27 16:11:11.639 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 58
+DEBUG 2018-09-27 16:11:11.639 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 58
+DEBUG 2018-09-27 16:11:11.639 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 58
+DEBUG 2018-09-27 16:11:11.639 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 58
+DEBUG 2018-09-27 16:11:11.640 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 58
+DEBUG 2018-09-27 16:11:36.041 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 0
+DEBUG 2018-09-27 16:11:36.509 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 1
+DEBUG 2018-09-27 16:11:37.829 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 0
+DEBUG 2018-09-27 16:11:38.044 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 1
+DEBUG 2018-09-27 16:11:38.088 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 2
+DEBUG 2018-09-27 16:11:38.092 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 3
+DEBUG 2018-09-27 16:11:38.096 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 4
+DEBUG 2018-09-27 16:11:38.100 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 5
+DEBUG 2018-09-27 16:11:38.103 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 6
+DEBUG 2018-09-27 16:11:38.107 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 7
+DEBUG 2018-09-27 16:11:38.110 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 8
+DEBUG 2018-09-27 16:11:38.115 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 9
+DEBUG 2018-09-27 16:11:38.119 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 10
+DEBUG 2018-09-27 16:11:38.126 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 11
+DEBUG 2018-09-27 16:11:38.129 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 12
+DEBUG 2018-09-27 16:11:38.132 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 13
+DEBUG 2018-09-27 16:11:38.134 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 14
+DEBUG 2018-09-27 16:11:38.138 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 15
+DEBUG 2018-09-27 16:11:38.142 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 16
+DEBUG 2018-09-27 16:11:38.144 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 17
+DEBUG 2018-09-27 16:11:38.147 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 18
+DEBUG 2018-09-27 16:11:38.150 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 19
+DEBUG 2018-09-27 16:11:38.192 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 20
+DEBUG 2018-09-27 16:11:38.228 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 21
+DEBUG 2018-09-27 16:11:38.278 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 22
+DEBUG 2018-09-27 16:11:38.303 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 2
+DEBUG 2018-09-27 16:11:38.422 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 23
+DEBUG 2018-09-27 16:11:38.438 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 24
+DEBUG 2018-09-27 16:11:38.453 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 25
+DEBUG 2018-09-27 16:11:38.476 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 26
+DEBUG 2018-09-27 16:11:38.487 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 3
+DEBUG 2018-09-27 16:11:38.505 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 27
+DEBUG 2018-09-27 16:11:38.515 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:11:38.515 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:11:38.515 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:11:38.515 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 4
+DEBUG 2018-09-27 16:11:38.516 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:11:38.516 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:11:38.516 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:11:38.516 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 4
+DEBUG 2018-09-27 16:11:38.516 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 28
+DEBUG 2018-09-27 16:11:38.529 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 29
+DEBUG 2018-09-27 16:11:38.543 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 30
+DEBUG 2018-09-27 16:11:38.559 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 4
+DEBUG 2018-09-27 16:11:38.573 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 31
+DEBUG 2018-09-27 16:11:38.578 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 32
+DEBUG 2018-09-27 16:11:38.591 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 33
+DEBUG 2018-09-27 16:11:38.608 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 34
+DEBUG 2018-09-27 16:11:38.624 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 5
+DEBUG 2018-09-27 16:11:38.639 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 35
+DEBUG 2018-09-27 16:11:38.641 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 36
+DEBUG 2018-09-27 16:11:38.643 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 36
+DEBUG 2018-09-27 16:11:38.666 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 37
+DEBUG 2018-09-27 16:11:38.681 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 38
+DEBUG 2018-09-27 16:11:38.682 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 6
+DEBUG 2018-09-27 16:11:38.683 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 38
+DEBUG 2018-09-27 16:11:38.697 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 39
+DEBUG 2018-09-27 16:11:38.713 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 40
+DEBUG 2018-09-27 16:11:38.714 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 6
+DEBUG 2018-09-27 16:11:38.741 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 40
+DEBUG 2018-09-27 16:11:38.757 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 41
+DEBUG 2018-09-27 16:11:38.771 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 42
+DEBUG 2018-09-27 16:11:38.782 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 7
+DEBUG 2018-09-27 16:11:38.817 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 43
+DEBUG 2018-09-27 16:11:38.819 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 44
+DEBUG 2018-09-27 16:11:38.820 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 45
+DEBUG 2018-09-27 16:11:38.840 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 46
+DEBUG 2018-09-27 16:11:38.860 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 47
+DEBUG 2018-09-27 16:11:38.880 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 48
+DEBUG 2018-09-27 16:11:38.890 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 49
+DEBUG 2018-09-27 16:11:38.902 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 50
+DEBUG 2018-09-27 16:11:54.649 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:11:54.658 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:11:54.728 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:11:54.728 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:11:54.728 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:11:54.729 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:11:54.729 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:11:54.729 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:11:54.729 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:11:54.729 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:11:54.767 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:06.555 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:06.557 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 51
+DEBUG 2018-09-27 16:12:06.559 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 52
+DEBUG 2018-09-27 16:12:06.560 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 52
+DEBUG 2018-09-27 16:12:06.560 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 52
+DEBUG 2018-09-27 16:12:06.560 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 52
+DEBUG 2018-09-27 16:12:11.687 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:11.688 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:11.694 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 52
+DEBUG 2018-09-27 16:12:11.695 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 52
+DEBUG 2018-09-27 16:12:11.695 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 52
+DEBUG 2018-09-27 16:12:11.695 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 52
+DEBUG 2018-09-27 16:12:11.695 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 52
+DEBUG 2018-09-27 16:12:11.695 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 52
+DEBUG 2018-09-27 16:12:11.695 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 52
+DEBUG 2018-09-27 16:12:11.695 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 52
+DEBUG 2018-09-27 16:12:11.705 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:12.688 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 52
+DEBUG 2018-09-27 16:12:12.689 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 52
+DEBUG 2018-09-27 16:12:12.689 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:12.690 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 52
+DEBUG 2018-09-27 16:12:12.690 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 52
+DEBUG 2018-09-27 16:12:12.690 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 52
+DEBUG 2018-09-27 16:12:12.691 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:12.691 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 52
+DEBUG 2018-09-27 16:12:14.287 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:14.287 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:14.291 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:14.291 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:14.292 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:14.292 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:14.292 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:14.292 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:14.292 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:14.292 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:14.297 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:15.286 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:15.286 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:15.287 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:15.287 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:15.287 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:15.288 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:15.288 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:15.288 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:15.854 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:15.854 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:15.859 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:15.859 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:15.859 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:15.859 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:15.859 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:15.860 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:15.860 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:15.860 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:15.866 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:16.720 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:16.720 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:16.721 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:16.721 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:16.721 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:16.721 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:16.721 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:16.722 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:18.420 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:18.420 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:18.424 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:18.424 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:18.424 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:18.424 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:18.424 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:18.424 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:18.424 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:18.424 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:18.430 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:20.986 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:20.986 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:20.986 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:20.986 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:20.986 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:20.987 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:22.520 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:22.520 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:22.523 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:22.523 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:22.523 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:22.523 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:22.523 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:22.524 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:22.524 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:22.524 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:22.528 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:23.352 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:23.353 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:23.353 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:23.353 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:23.353 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:23.353 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:23.354 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:23.354 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:23.853 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:23.853 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:23.856 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:23.856 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:23.856 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:23.856 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:23.856 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:23.857 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:23.857 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:23.857 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:23.859 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:25.186 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:25.187 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:25.187 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:25.187 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:25.187 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:25.187 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:25.187 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:25.187 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:25.619 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:25.620 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:25.623 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:25.623 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:25.623 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:25.623 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:25.623 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:25.623 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:25.624 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:25.624 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:25.628 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:27.352 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:27.352 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:27.353 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:27.353 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:27.353 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:27.353 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:28.753 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:28.753 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:28.756 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:28.757 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:28.757 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:28.757 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:28.757 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:28.757 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:28.757 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:28.757 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:28.760 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:30.852 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:30.852 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:30.852 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:30.852 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:30.852 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:30.852 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:31.852 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:31.852 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:31.855 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:31.856 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:31.856 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:31.856 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:31.856 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:31.856 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:31.856 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:31.856 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:33.552 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:33.552 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:33.553 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:33.553 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:33.553 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:33.553 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:33.553 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:33.554 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:33.554 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:33.554 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:33.554 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:34.252 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:34.252 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:34.255 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:34.255 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:34.255 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:34.255 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:34.255 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:34.255 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:34.256 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:34.256 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:35.385 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:35.386 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:35.386 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:35.386 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:35.386 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:35.386 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:35.386 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:35.386 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:35.386 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:35.387 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:35.387 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:35.752 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:35.752 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:35.755 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:35.755 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:35.756 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:35.756 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:35.756 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:35.756 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:35.756 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:35.756 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:36.786 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:36.786 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:36.786 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:36.786 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:36.786 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:36.786 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:36.786 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:36.787 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:36.787 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:36.787 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:36.787 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:37.485 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:37.485 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:37.487 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:37.488 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:37.488 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:37.488 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:37.488 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:37.488 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:37.488 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:37.488 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:39.284 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:39.284 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:39.284 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:39.284 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:39.285 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:39.285 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:39.285 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:39.285 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:39.285 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:39.285 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:39.285 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:40.185 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:40.185 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:40.187 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:40.187 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:40.187 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:40.187 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:40.187 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:40.188 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:40.188 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:40.188 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:46.885 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:46.885 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 8
+DEBUG 2018-09-27 16:12:46.922 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:46.922 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:46.922 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:46.922 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:46.922 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:46.922 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:46.923 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:46.923 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:46.923 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:46.923 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:49.517 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:49.517 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:49.517 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 9
+DEBUG 2018-09-27 16:12:49.518 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:49.518 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:49.518 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:49.518 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 9
+DEBUG 2018-09-27 16:12:49.519 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:49.519 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:49.519 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 9
+DEBUG 2018-09-27 16:12:49.519 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:51.284 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 9
+DEBUG 2018-09-27 16:12:51.284 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 9
+DEBUG 2018-09-27 16:12:51.286 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:51.286 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:51.286 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:51.287 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:51.287 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:51.287 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:51.287 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:51.287 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:51.287 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:51.287 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 53
+DEBUG 2018-09-27 16:12:52.383 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:52.383 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:52.384 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 9
+DEBUG 2018-09-27 16:12:52.384 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 53
+DEBUG 2018-09-27 16:12:52.395 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 54
+DEBUG 2018-09-27 16:12:52.395 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 54
+DEBUG 2018-09-27 16:12:52.395 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 9
+DEBUG 2018-09-27 16:12:52.395 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 54
+DEBUG 2018-09-27 16:12:53.517 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 54
+DEBUG 2018-09-27 16:12:53.521 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 55
+DEBUG 2018-09-27 16:12:53.567 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 56
+DEBUG 2018-09-27 16:12:53.613 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Dyn Textures Cache size: 57
+DEBUG 2018-09-27 16:12:56.249 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 9
+DEBUG 2018-09-27 16:12:56.249 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Models Cache size: 9
+DEBUG 2018-09-27 16:12:56.252 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 58
+DEBUG 2018-09-27 16:12:56.252 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 58
+DEBUG 2018-09-27 16:12:56.252 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 58
+DEBUG 2018-09-27 16:12:56.252 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 58
+DEBUG 2018-09-27 16:12:56.252 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 58
+DEBUG 2018-09-27 16:12:56.252 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 58
+DEBUG 2018-09-27 16:12:56.252 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 58
+DEBUG 2018-09-27 16:12:56.252 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 58
+DEBUG 2018-09-27 16:12:56.252 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 58
+DEBUG 2018-09-27 16:12:56.253 [MainLoop] org.jrd3.engine.core.utils.ResourceManager: Textures Cache size: 58

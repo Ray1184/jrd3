@@ -1,0 +1,6 @@
+rootProject.name = 'jrd3'
+include 'JRD3_Engine'
+findProject(':JRD3_Engine')?.name = 'jrd3-engine'
+include 'JRD3_Tools'
+findProject(':JRD3_Tools')?.name = 'jrd3-tools'
+

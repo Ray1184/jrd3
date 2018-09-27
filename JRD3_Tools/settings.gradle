@@ -1,0 +1,2 @@
+include ":jrd3-engine"
+project(":jrd3-engine").projectDir = file("../JRD3_Engine")
