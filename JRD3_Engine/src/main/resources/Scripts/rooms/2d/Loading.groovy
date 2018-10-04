@@ -1,7 +1,8 @@
 package Scripts.gui
 
 import Scripts.inv.*
-import Scripts.utils.*
+import Scripts.utils.Env
+import Scripts.utils.Keys
 import org.joml.Vector3f
 import org.jrd3.engine.core.graph.SceneLight
 import org.jrd3.engine.core.items.DepthMask
@@ -13,7 +14,6 @@ import org.jrd3.engine.core.sim.MouseInput
 import org.jrd3.engine.core.sim.Window
 import org.jrd3.engine.playenv.objects.inventory.InventoryObject
 import org.jrd3.engine.playenv.objects.inventory.InventoryObjectAction
-
 
 loadPercentage = 0
 waitCycles = 0
@@ -30,7 +30,8 @@ def onInit(AbstractState state) {
     load.alpha = 1
     state.scene.addTempPicture(load)
 
-    def text = TextPicture.get("La villa di Harm Street e' stata teatro di\nfatti inspiegabili fin dalla sua costruzione.\nOgni membro della famiglia che l'ha \noccupata e' deceduto di morte orribile.\nLe forme oblunghe e le strane luci\nvisibili dalle finestre della cantina\nsono state per anni oggetto di leggende.\nFrutto della fantasia? Forse...", 0, 0)
+    // def text = TextPicture.get("La villa di Harm Street e' stata teatro di\nfatti inspiegabili fin dalla sua costruzione.\nOgni membro della famiglia che l'ha \noccupata e' deceduto di morte orribile.\nLe forme oblunghe e le strane luci\nvisibili dalle finestre della cantina\nsono state per anni oggetto di leggende.\nFrutto della fantasia? Forse...", 0, 0)
+    def text = Env.text("La villa di Harm Street e' stata teatro di fatti inspiegabili fin dalla sua costruzione. Ogni membro della famiglia che l'ha  occupata e' deceduto di morte orribile. Le forme oblunghe e le strane luci visibili dalle finestre della cantina sono state per anni oggetto di leggende. Frutto della fantasia? Forse...", 0, 0, Env.GOLD, true, 39)
     text.picture.alpha = 0.8
     state.scene.addTempText(text)
 
@@ -126,7 +127,7 @@ void loadResources() {
     Env.getVar("ALL_ROOM_OBJS")[5] = new Instructions()
     Env.getVar("ALL_ROOM_OBJS")[6] = new OldLetter()
     Env.getVar("ALL_ROOM_OBJS")[7] = new Cartridges12()
-    Env.getVar("ALL_ROOM_OBJS")[8] = new Flamethrower()
+    Env.getVar("ALL_ROOM_OBJS")[8] = new H2SO4()
 
 
     Env.getVar("ALL_ROOM_OBJS").each { InventoryObject obj ->
@@ -170,6 +171,7 @@ void loadResources() {
 
     Env.getVar("CURR_INV_OBJS").add(Env.getVar("ALL_ROOM_OBJS")[0] )
     Env.getVar("CURR_INV_OBJS").add(Env.getVar("ALL_ROOM_OBJS")[4] )
+    Env.getVar("CURR_INV_OBJS").add(Env.getVar("ALL_ROOM_OBJS")[8])
 }
 
 this

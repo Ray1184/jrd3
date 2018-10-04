@@ -7,8 +7,6 @@ import org.joml.Vector3f
 import org.jrd3.engine.core.graph.SceneLight
 import org.jrd3.engine.core.graph.anim.Animation
 import org.jrd3.engine.core.items.ModelItem
-import org.jrd3.engine.core.items.SceneNode
-import org.jrd3.engine.core.loaders.binary.BinaryFileLoader
 import org.jrd3.engine.core.sim.AbstractState
 import org.jrd3.engine.core.sim.MouseInput
 import org.jrd3.engine.core.sim.Window
@@ -27,42 +25,22 @@ actorInc = 0
 actorRot = 0
 
 // debug
-x = 0f
-y = 0f
-z = 0f
-rx = 0f
-ry = 0f
-rz = 0f
-ratio = 0.1
+
 
 animItem = {}
 
-obj5 = {}
-model5 = {}
 
 def onInit(AbstractState state) {
 
-    distance = new Vector3f()
     sec1 = "S21"
 
     Env.setVar("LAST", "Basement")
     Keys.initKeys()
 
-    transformNode = new SceneNode("PL_NODE")
-    transformNode2 = new SceneNode("PL_NODE2")
-    transformNode3 = new SceneNode("PL_NODE3")
-    moveNode = new SceneNode("FT_NODE")
-    moveNode2 = new SceneNode("FT_NODE2")
-    moveNode3 = new SceneNode("FT_NODE3")
 
 
-
-    String fileName = Thread.currentThread().getContextClassLoader()
-            .getResource("Models/CrippleAnim.dae").getFile()
-    File file = new File(fileName)
-    animItem = ModelItem.get(file.getAbsolutePath(), "")
-    animItem.setScale(0.20f)
-    animItem.setPosition(0, 0, 0)
+    animItem = Env.getDaeModel("CrippleAnim.dae")
+    animItem.setScale(0.2)
     animItem.setAnimController(new MovableAnimController())
     animation = animItem.getCurrentAnimation() as Animation
     animation.play()
@@ -71,12 +49,13 @@ def onInit(AbstractState state) {
 
 
 
-    fileName = Thread.currentThread().getContextClassLoader()
-            .getResource("Models/UncleAnim.dae").getFile()
-    file = new File(fileName)
-    animItem2 = ModelItem.get(file.getAbsolutePath(), "")
-    animItem2.setScale(0.20) //0.20
+    animItem2 = Env.getDaeModel("UncleAnim.dae")
+    animItem2.setScale(0.2)
     animItem2.setPosition(0, 0, 0)
+    animItem2.setAnimController(new MovableAnimController())
+    animation2 = animItem2.getCurrentAnimation() as Animation
+    animation2.play()
+    animation2.setCompleteAfterHalf(true)
 
 
 
@@ -84,21 +63,13 @@ def onInit(AbstractState state) {
     state.getScene().addModelItem(animItem2)
 
 
-    transformNode.attachGeometry(animItem)
-    transformNode.setPosition(0, 0, 0f)
-    moveNode.addChild(transformNode)
+    moveNode = Env.createTransformAndMoveNode("PlayerNode", animItem)
     moveNode.setPosition(0f, 1.1f, 0.0f)
-    moveNode.rotate(0, 77, 0)
     state.getScene().getRootNode().addChild(moveNode)
 
-    transformNode2.attachGeometry(animItem2)
-    transformNode2.setPosition(0, 0, 0f)
-    moveNode2.addChild(transformNode2)
+    moveNode2 = Env.createTransformAndMoveNode("NPC1Node", animItem2)
     moveNode2.setPosition(-1f, 1.1f, 0.0f)
-    moveNode2.rotate(0, 77, 0)
     state.getScene().getRootNode().addChild(moveNode2)
-
-    //moveNode3.setLocalTransform(hand.getTransformations().get())
 
     // Setup Lights
     SceneLight globalLight = new SceneLight()
@@ -108,9 +79,9 @@ def onInit(AbstractState state) {
     globalLight.setAmbientLight(new Vector3f(1.0f, 1.0f, 1.0f))
 
 
-    walkmap = BinaryFileLoader.loadWalkMap("/Maps/BasementW.jrd3m")
-    viewmap = BinaryFileLoader.loadViewMap("/Maps/BasementV.jrd3m")
-    pathsmap = BinaryFileLoader.loadPathsMap("/Maps/BasementP.jrd3m")
+    walkmap = Env.getWalkMap("BasementW.jrd3m")
+    viewmap = Env.getViewMap("BasementV.jrd3m")
+    pathsmap = Env.getPathsMap("BasementP.jrd3m")
     collisor = new Collisor(walkmap)
     boolean stop = false
     controller = new MovableActorController(collisor)
@@ -147,21 +118,21 @@ def onInit(AbstractState state) {
 
     // Pickable objects
     // Instructions [5]
-    obj5 = Env.getVar("ALL_ROOM_OBJS")[5]
-    if (obj5 != null) {
 
-        fileName = Thread.currentThread().contextClassLoader
-                .getResource("Models/Objs/" + obj5.modelName).file
-        file = new File(fileName)
-        def fileNameTex = Thread.currentThread().contextClassLoader
-                .getResource("Textures/Objs/").file
-        def fileTex = new File(fileNameTex)
-        model5 = ModelItem.get(file.getAbsolutePath(), fileTex.getAbsolutePath())
-        model5.scale = 0.04f
-        model5.setRotation(new Quaternionf(0f, 0f, Math.toRadians(40) as float, 1f))
-        model5.setPosition(-2.5f, 0.7f, 3.5f)
-        state.scene.addModelItem(model5)
+    def obj5 = Env.getVar("ALL_ROOM_OBJS")[5]
+    def action = { o ->
+        saveCurrentVars()
+        Env.setVar("CURRENT_PICKING", o)
+        Env.fade({ v ->
+            state.app.switchState("Picking")
+        })
     }
+    def letter = Env.dropPickeableObject(animItem, obj5, new Vector3f(-2.5, 0.7, 3.5), new Quaternionf(0f, 0f, Math.toRadians(40) as float, 1f),
+            0.04f, action)
+    if (letter != null) {
+        state.scene.addModelItem(letter)
+    }
+
 
     Env.initFade(state.scene)
 
@@ -173,6 +144,7 @@ def onUpdate(AbstractState state, Float tpf) {
 
 
     animation.setSpeed((75 * tpf) as int)
+    animation2.setSpeed((50 * tpf) as int)
     //transformNode3.setPosition(x as float, y as float, z as float)
     viewmap.updateView(state.getCamera(), moveNode.getPosition().x, moveNode.getPosition().z)
     state.getScene().setBackground(viewmap.getCurrentBackground())
@@ -184,7 +156,14 @@ def onUpdate(AbstractState state, Float tpf) {
     controller.setMovStep(actorInc)
     controller.setRotStep(actorRot)
 
-    controller2.seeking = false
+    controller2.setMovStep(0.5f)
+    if ((animItem as ModelItem).position.distance(animItem2.position) > 1) {
+        controller2.seeking = true
+        animation2.play()
+
+    } else {
+        controller2.seeking = false
+    }
 
 
 }
@@ -200,11 +179,13 @@ def onInput(AbstractState state, Window window, MouseInput mouseInput) {
         if (animation != null) {
             animation.play()
 
+
         }
         actorInc = 1.2f
     } else if (window.isKeyPressed(GLFW_KEY_S)) {
         if (animation != null) {
             animation.play()
+
 
         }
         actorInc = -1.2f
@@ -216,12 +197,14 @@ def onInput(AbstractState state, Window window, MouseInput mouseInput) {
     }
 
 
-    if (Keys.enter == 1 && (currentSec.name.equals("S118") || currentSec.name.equals("S122"))) {
-        Env.fade({ v ->
-            state.app.switchState("Garden")
-        })
-    }
+    if (Keys.enter == 1) {
 
+        if (currentSec.name.equals("S118") || currentSec.name.equals("S122")) {
+            Env.fade({ v ->
+                state.app.switchState("Garden")
+            })
+        }
+    }
 
 
 
@@ -232,24 +215,6 @@ def onInput(AbstractState state, Window window, MouseInput mouseInput) {
         })
     }
 
-    // Picking
-    if (model5 != null) {
-        Vector3f pos = animItem.getPosition()
-        Vector3f pos5 = model5.getPosition()
-
-        if (Keys.enter == 1 && pos.distance(pos5) < 1) {
-            def obj = Env.getVar("ALL_ROOM_OBJS")[5]
-            if (obj != null) {
-                saveCurrentVars()
-                Env.setVar("CURRENT_PICKING", obj)
-                Env.fade({ v ->
-                    state.app.switchState("Picking")
-                })
-            }
-        }
-    }
-
-    //println(x + "-" + y + "-" + z + "\n" + rx + "-" + ry + "-" + rz + "\n\n\n")
 
 }
 

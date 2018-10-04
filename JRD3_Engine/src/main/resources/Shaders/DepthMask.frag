@@ -16,7 +16,7 @@ uniform float zFar;
 
 void main() 
 {
-   float imageDepth = texture2D(textureSampler, uvTex).r;
+   float imageDepth = texture2D(textureSampler, uvTex).b;
    imageDepth = -imageDepth;
    vec4 temp = vec4(0.0, 0.0, (imageDepth * (zFar - zNear) - zNear), 1.0);
    vec4 clipSpace = projectionMatrix * temp;
@@ -25,3 +25,4 @@ void main()
    float depth = clipSpace.z;
    gl_FragDepth = depth;
 }
+

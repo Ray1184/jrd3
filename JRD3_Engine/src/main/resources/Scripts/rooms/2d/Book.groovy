@@ -10,8 +10,6 @@ import org.jrd3.engine.core.sim.AbstractState
 import org.jrd3.engine.core.sim.MouseInput
 import org.jrd3.engine.core.sim.Window
 
-import java.awt.Color
-
 pagesPict = []
 
 index = 0
@@ -32,11 +30,23 @@ def onInit(AbstractState state) {
 
     // Text pictures
     def pages = Env.getVar("PAGES_TO_READ")
+    boolean cover = false;
     for (String text : pages) {
-        def textPic = TextPicture.get(text, 0, 0, TextPicture.DEFAULT_FONT, new Color(0, 0, 0))
-        textPic.picture.alpha = 0
-        state.scene.addText(textPic)
-        pagesPict.add(textPic)
+        if (!cover) {
+            cover = true
+            if (text != null) {
+                def textPic = Env.text(text, -10, 30, Env.BLACK, true, 0)
+                textPic.picture.alpha = 0
+                state.scene.addText(textPic)
+                pagesPict.add(textPic)
+            }
+        } else {
+            //def textPic = TextPicture.get(text, 0, 0, TextPicture.DEFAULT_FONT, new Color(0, 0, 0))
+            def textPic = Env.text(text, -5, 20, Env.BLACK, true, 32)
+            textPic.picture.alpha = 0
+            state.scene.addText(textPic)
+            pagesPict.add(textPic)
+        }
     }
 
 
@@ -91,7 +101,7 @@ def updatePictures() {
         textPic.picture.alpha = 0
     }
 
-    pagesPict.get(index).picture.alpha = 1
+    pagesPict.get(index).picture.alpha = 0.8
 
 
 }

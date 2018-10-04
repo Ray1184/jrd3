@@ -80,6 +80,19 @@ public class TextPicture {
      * @param content The text content.
      * @param x       X position.
      * @param y       Y position.
+     * @param center  Center flag.
+     * @throws JRD3Exception
+     */
+    public static TextPicture get(String content, int x, int y, boolean center) throws JRD3Exception {
+        return new TextPicture(content, x, y, TextPicture.DEFAULT_FONT, new Color(250, 200, 40, 255), center);
+    }
+
+    /**
+     * Takes text from cached resources.
+     *
+     * @param content The text content.
+     * @param x       X position.
+     * @param y       Y position.
      * @throws JRD3Exception
      */
     public static TextPicture get(String content, int x, int y) throws JRD3Exception {
@@ -111,11 +124,13 @@ public class TextPicture {
      * @param center  Flag for label in center of screen.
      * @throws JRD3Exception
      */
-    public static TextPicture get(String content, int x, int y, Font font, Color color, boolean center) throws JRD3Exception {
+    public static TextPicture get(String content, int x, int y, Font font, Color color, boolean center) throws
+            JRD3Exception {
         return new TextPicture(content, x, y, font, color, center);
     }
 
-    private Texture createTexture(String content, int x, int y, Font font, Color color, boolean center) throws JRD3Exception {
+    private Texture createTexture(String content, int x, int y, Font font, Color color, boolean center) throws
+            JRD3Exception {
         int wx = ScreenManager.INSTANCE.getResolutionX();
         int wy = ScreenManager.INSTANCE.getResolutionY();
 

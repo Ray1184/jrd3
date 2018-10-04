@@ -56,6 +56,7 @@ public class MovableActorController implements ActorController {
 
     @Override
     public void update(Actor actor, float tpf) {
+
         mat.zero();
         direction.set(MovableActorController.LOOK_FORWARD);
         actor.rotate(0.0f, rotStep * tpf, 0.0f);

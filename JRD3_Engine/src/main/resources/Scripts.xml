@@ -2,8 +2,10 @@
 
 <!-- List of all mapped scripts to load. -->
 <root>
-    <firstScript id="Loading"/>
+    <firstScript id="MainMenu"/>
     <scripts>
+        <script id="MainMenu" renderer="GUI2D" path="/Scripts/rooms/2d/MainMenu.groovy"/>
+        <script id="Info" renderer="GUI2D" path="/Scripts/rooms/2d/Info.groovy"/>
         <script id="Loading" renderer="GUI2D" path="/Scripts/rooms/2d/Loading.groovy"/>
         <script id="Basement" renderer="RETRO25D" path="/Scripts/rooms/r25d/Basement.groovy"/>
         <script id="Garden" renderer="RETRO25D" path="/Scripts/rooms/r25d/Garden.groovy"/>

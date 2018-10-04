@@ -68,16 +68,13 @@ public class SeekerActorController implements ActorController {
     @Override
     public void update(Actor actor, float tpf) {
 
-
         if (pathMap != null) {
-
-
             actorPos2D.set(actor.getPosition().x, actor.getPosition().z);
             seekPos2D.set(seek.getPosition().x, seek.getPosition().z);
             seekPos2D.sub(actorPos2D, direction2D);
             direction2D.normalize();
             direction.set(direction2D.x, 0.0f, direction2D.y);
-            rotation.lookAlong(direction, SeekerActorController.LOOK_FORWARD_ROT);
+            rotation.lookAlong(direction.negate(), SeekerActorController.LOOK_FORWARD_ROT);
             rotation.set(rotation.x, -rotation.y, rotation.z, rotation.w);
             actor.getRotation().set(rotation);
             rotation.set(0, 0, 0, 1);

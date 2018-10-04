@@ -44,6 +44,7 @@ class Instructions implements InventoryObject {
 
             @Override
             boolean performAction() {
+                /*
                 def text1 = "\nGENERATORE DI CROOKES     \n" +
                         "Ispirato all'espirimento di Sir\n" +
                         "William Crookes, il generatore di\n" +
@@ -72,8 +73,29 @@ class Instructions implements InventoryObject {
                         "\n" +
                         "\n\n" +
                         "<-"
+                */
+                def text0 = "GENERATORE DI CROOKES\n\nISTRUZIONI DI SETTAGGIO"
+                def text1 = "Ispirato all'espirimento di Sir " +
+                        "William Crookes, il generatore di " +
+                        "Crookes permette, se alimentato " +
+                        "correttamente, di creare un fascio " +
+                        "di elettroni ad alta energia tra " +
+                        "un catodo e un anodo posti fino " +
+                        "a tre metri di distanza."
 
+                def text2 = "Per funzionare, i condensatori " +
+                        "vanno caricati con batterie ad " +
+                        "alta capacita', oppure con un " +
+                        "potente generatore capacitivo. " +
+                        "Per stabilizzare il flusso di " +
+                        "elettroni verso lo schermo " +
+                        "anodico e' necessario collegare " +
+                        "al catodo uno spinterometro."
+                def text3 = "In qualsiasi caso collegare lo spinterometro " +
+                        "SEMPRE prima dell'inserimento " +
+                        "delle batterie nei relativi alloggi."
                 def pages = new ArrayList(1)
+                pages.add(text0)
                 pages.add(text1)
                 pages.add(text2)
                 pages.add(text3)
