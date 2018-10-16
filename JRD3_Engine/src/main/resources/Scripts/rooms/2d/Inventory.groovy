@@ -2,6 +2,7 @@ package Scripts.gui
 
 import Scripts.utils.Env
 import Scripts.utils.Keys
+import org.joml.Quaternionf
 import org.joml.Vector3f
 import org.jrd3.engine.core.graph.SceneLight
 import org.jrd3.engine.core.items.ModelItem
@@ -75,6 +76,7 @@ def onInit(AbstractState state) {
         def fileTex = new File(fileNameTex)
         def model = ModelItem.get(file.getAbsolutePath(), fileTex.getAbsolutePath())
         model.position = new Vector3f(-1.3, -1.25, -3)
+        model.rotation = new Quaternionf().rotateXYZ(0, 0, 0)
         model.scale = 0
         state.scene.addModelItem model
         inventAll3D.add model
@@ -146,7 +148,7 @@ def refreshObjSelected() {
         } else if (!inventVisibleSlots.contains(lab)) {
             lab.getPicture().alpha = 0
         } else {
-            lab.getPicture().alpha = 0.7
+            lab.getPicture().alpha = 0.6
         }
         i++
     }
@@ -161,12 +163,12 @@ def refreshActionsList() {
             def h = 0
             for (TextPicture lab : actions) {
                 if (mode == OBJECTS) {
-                    lab.getPicture().alpha = 0.7
+                    lab.getPicture().alpha = 0.6
                 } else if (mode == ACTIONS) {
                     if (h == actId) {
                         lab.getPicture().alpha = 1
                     } else {
-                        lab.getPicture().alpha = 0.7
+                        lab.getPicture().alpha = 0.6
                     }
                     h++
                 }
@@ -196,7 +198,7 @@ def refreshObjList() {
 
     def i = 0
     for (TextPicture lab : inventVisibleSlots) {
-        lab.getPicture().alpha = 0.5
+        lab.getPicture().alpha = 0.6
         lab.picture.setPosition(0, i++ * 19)
 
     }

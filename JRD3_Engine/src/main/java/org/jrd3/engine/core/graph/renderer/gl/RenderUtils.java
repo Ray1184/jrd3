@@ -215,8 +215,8 @@ public class RenderUtils {
      * @param shaderProgram
      */
     public static void renderPictures(Scene scene, boolean foreground, ShaderProgram shaderProgram) {
-        glDepthMask(false);
-
+        //glDepthMask(false);
+        glDisable(GL_DEPTH_TEST);
 
         shaderProgram.bind();
         shaderProgram.setUniform(UNIFORM_TEXSAMPLER, 0);
@@ -233,7 +233,8 @@ public class RenderUtils {
         }
 
         shaderProgram.unbind();
-        glDepthMask(true);
+        //glDepthMask(true);
+        glEnable(GL_DEPTH_TEST);
     }
 
 

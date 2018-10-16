@@ -4,13 +4,13 @@ import org.joml.Vector3f
 import org.jrd3.engine.playenv.objects.inventory.InventoryObject
 import org.jrd3.engine.playenv.objects.inventory.InventoryObjectAction
 
-class Flamethrower implements InventoryObject {
+class Bullets38 implements InventoryObject {
 
-    private int amount = 40
+    private int amount = -1
 
     @Override
     String getName() {
-        return "Un Lanciafiamme"
+        return "Una Scatola di Proiettili .38"
     }
 
     @Override
@@ -20,7 +20,7 @@ class Flamethrower implements InventoryObject {
 
     @Override
     float getScale() {
-        return 0.07f
+        return 0.12f
     }
 
     @Override
@@ -30,7 +30,7 @@ class Flamethrower implements InventoryObject {
 
     @Override
     String getModelName() {
-        return "Flamethrower.obj"
+        return "Bullets_38.obj"
     }
 
     @Override
@@ -38,12 +38,12 @@ class Flamethrower implements InventoryObject {
         InventoryObjectAction act = new InventoryObjectAction() {
             @Override
             String getActionName() {
-                return "Equip"
+                return "Usa"
             }
 
             @Override
             boolean performAction() {
-                return true
+                return false
             }
         }
 

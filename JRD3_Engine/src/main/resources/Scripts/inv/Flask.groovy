@@ -45,6 +45,8 @@ class Flask implements InventoryObject {
             @Override
             boolean performAction() {
                 Env.setVar("PLAYER_LIFE", Env.getVar("PLAYER_LIFE") + 10)
+                Env.setVar("SHOW_MESSAGE", "Ahhh... mi sento meglio!")
+                Env.setVar("MESSAGE_TIME", 4.0f)
                 amount--
                 return true
             }

@@ -1,22 +1,21 @@
 package Scripts.inv
 
-import Scripts.utils.Env
 import org.joml.Vector3f
 import org.jrd3.engine.playenv.objects.inventory.InventoryObject
 import org.jrd3.engine.playenv.objects.inventory.InventoryObjectAction
 
-class Actions implements InventoryObject {
+class Spark implements InventoryObject {
 
-
+    private int amount = -1
 
     @Override
     String getName() {
-        return "Azioni"
+        return "Uno Spinterometro"
     }
 
     @Override
     int getAmount() {
-        return Env.getVar("PLAYER_LIFE")
+        return amount
     }
 
     @Override
@@ -31,7 +30,7 @@ class Actions implements InventoryObject {
 
     @Override
     String getModelName() {
-        return "Cripple.obj"
+        return "Spark.obj"
     }
 
     @Override
@@ -39,45 +38,17 @@ class Actions implements InventoryObject {
         InventoryObjectAction act = new InventoryObjectAction() {
             @Override
             String getActionName() {
-                return "Apri/Cerca"
+                return "Usa"
             }
 
             @Override
             boolean performAction() {
-                Env.setVar("PLAYER_ANIM", "CrippleAnim.dae")
-                Env.setVar("SHOOTING_TYPE", Env.SHOOT_TYPE_NONE)
-                return true
-            }
-        }
-
-        InventoryObjectAction act2 = new InventoryObjectAction() {
-            @Override
-            String getActionName() {
-                return "Combatti"
-            }
-
-            @Override
-            boolean performAction() {
-                return true
-            }
-        }
-
-        InventoryObjectAction act3 = new InventoryObjectAction() {
-            @Override
-            String getActionName() {
-                return "Spingi"
-            }
-
-            @Override
-            boolean performAction() {
-                return true
+                return false
             }
         }
 
         List<InventoryObjectAction> actions = new ArrayList<>()
         actions.add(act)
-        //actions.add(act2)
-        //actions.add(act3)
         return actions
     }
 

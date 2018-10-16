@@ -23,7 +23,7 @@ def onInit(AbstractState state) {
     // Background
     def pick = Picture.get("/Textures/MainMenu.png", Picture.Mode.BACKGROUND)
 
-    pick.alpha = 0.8
+    pick.alpha = 1
     state.scene.addPicture(pick)
 
     // Text pictures
@@ -86,19 +86,19 @@ def onInput(AbstractState state, Window window, MouseInput mouseInput) {
 
     if (index == 0) {
         start.picture.alpha = 1
-        info.picture.alpha = 0.7
-        exit.picture.alpha = 0.7
+        info.picture.alpha = 0.6
+        exit.picture.alpha = 0.6
     }
 
     if (index == 1) {
-        start.picture.alpha = 0.7
+        start.picture.alpha = 0.6
         info.picture.alpha = 1
-        exit.picture.alpha = 0.7
+        exit.picture.alpha = 0.6
     }
 
     if (index == 2) {
-        start.picture.alpha = 0.7
-        info.picture.alpha = 0.7
+        start.picture.alpha = 0.6
+        info.picture.alpha = 0.6
         exit.picture.alpha = 1
     }
 

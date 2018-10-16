@@ -1,6 +1,7 @@
 package Scripts.gui
 
-import Scripts.utils.*
+import Scripts.utils.Env
+import Scripts.utils.Keys
 import org.joml.Quaternionf
 import org.joml.Vector3f
 import org.jrd3.engine.core.graph.SceneLight
@@ -10,7 +11,6 @@ import org.jrd3.engine.core.items.TextPicture
 import org.jrd3.engine.core.sim.AbstractState
 import org.jrd3.engine.core.sim.MouseInput
 import org.jrd3.engine.core.sim.Window
-
 
 confirm = true
 obj = {}
@@ -98,9 +98,9 @@ def refresh3DModels(tpf) {
 def refreshLabels() {
     if (confirm) {
         yes.getPicture().alpha = 1.0f
-        no.getPicture().alpha = 0.7f
+        no.getPicture().alpha = 0.6f
     } else {
-        yes.getPicture().alpha = 0.7f
+        yes.getPicture().alpha = 0.6f
         no.getPicture().alpha = 1.0f
     }
 }

@@ -1,5 +1,6 @@
 package Scripts.inv
 
+import Scripts.utils.Env
 import org.joml.Vector3f
 import org.jrd3.engine.playenv.objects.inventory.InventoryObject
 import org.jrd3.engine.playenv.objects.inventory.InventoryObjectAction
@@ -43,6 +44,23 @@ class OldLetter implements InventoryObject {
 
             @Override
             boolean performAction() {
+
+                def text0 = null
+                def text1 = "Poveri stolti! Illusi di avermi sconfitto, " +
+                        "illusi della vostra vittoria, " +
+                        "illusi della vostra stessa vita! " +
+                        "Fintanto che i miei resti giaceranno " +
+                        "in queste fredde terre il mio spirito " +
+                        "rimarra' vivo. Quando vi accorgerete di cio', " +
+                        "io avro' guadagnato l'immortalita'!"
+
+
+                def pages = new ArrayList(1)
+                pages.add(text0)
+                pages.add(text1)
+
+                Env.setVar("PAGES_TO_READ", pages)
+                Env.setVar("BOOK_TEMPLATE", "/Textures/OldLetter.png")
                 return true
             }
         }

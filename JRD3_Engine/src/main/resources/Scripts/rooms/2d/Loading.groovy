@@ -67,6 +67,8 @@ def onInput(AbstractState state, Window window, MouseInput mouseInput) {
         if (Keys.enter == 1) {
             Env.fade({ v ->
                 Env.fadeRatio = 0.1
+                Env.setVar("SHOW_MESSAGE", "Ho dimenticato qualcosa...")
+                Env.setVar("MESSAGE_TIME", 7.0f)
                 state.app.switchState("Basement")
             })
         }
@@ -84,6 +86,11 @@ void loadResources() {
     String fileName = Thread.currentThread().getContextClassLoader()
             .getResource("Models/CrippleAnim.dae").getFile()
     File file = new File(fileName)
+    ModelItem.get(file.getAbsolutePath(), "")
+
+    fileName = Thread.currentThread().getContextClassLoader()
+            .getResource("Models/CrippleAnimRevolver.dae").getFile()
+    file = new File(fileName)
     ModelItem.get(file.getAbsolutePath(), "")
 
     fileName = Thread.currentThread().getContextClassLoader()
@@ -128,7 +135,10 @@ void loadResources() {
     Env.getVar("ALL_ROOM_OBJS")[6] = new OldLetter()
     Env.getVar("ALL_ROOM_OBJS")[7] = new Cartridges12()
     Env.getVar("ALL_ROOM_OBJS")[8] = new H2SO4()
-
+    Env.getVar("ALL_ROOM_OBJS")[9] = new Spark()
+    Env.getVar("ALL_ROOM_OBJS")[10] = new Shovel()
+    Env.getVar("ALL_ROOM_OBJS")[11] = new Revolver()
+    Env.getVar("ALL_ROOM_OBJS")[12] = new Bullets38()
 
     Env.getVar("ALL_ROOM_OBJS").each { InventoryObject obj ->
 
@@ -160,6 +170,7 @@ void loadResources() {
             TextPicture.get(String.valueOf(obj.getAmount()), -130, 100)
         }
 
+
     }
     // Load static messages
 
@@ -171,7 +182,11 @@ void loadResources() {
 
     Env.getVar("CURR_INV_OBJS").add(Env.getVar("ALL_ROOM_OBJS")[0] )
     Env.getVar("CURR_INV_OBJS").add(Env.getVar("ALL_ROOM_OBJS")[4] )
-    Env.getVar("CURR_INV_OBJS").add(Env.getVar("ALL_ROOM_OBJS")[8])
+    Env.getVar("CURR_INV_OBJS").add(Env.getVar("ALL_ROOM_OBJS")[6])
+    Env.getVar("CURR_INV_OBJS").add(Env.getVar("ALL_ROOM_OBJS")[11])
+    Env.getVar("CURR_INV_OBJS").add(Env.getVar("ALL_ROOM_OBJS")[12])
+
+    Env.setVar("PLAYER_ANIM", "CrippleAnim.dae")
 }
 
 this

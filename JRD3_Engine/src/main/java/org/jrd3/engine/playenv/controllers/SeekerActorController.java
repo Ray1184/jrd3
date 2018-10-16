@@ -63,6 +63,7 @@ public class SeekerActorController implements ActorController {
         direction.set(0f, 0f, 1f);
         direction2D.set(direction.x, direction.z);
         nextPos.set(actor.getPosition());
+
     }
 
     @Override

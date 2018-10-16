@@ -20,6 +20,8 @@ class Keys {
     def static right = 2
     def static enter = 2
     def static m = 2
+    def static space = 2
+    def static spaceReleased = 2
 
     static initKeys() {
         invent = 2
@@ -29,6 +31,8 @@ class Keys {
         right = 2
         enter = 2
         m = 2
+        space = 2
+        spaceReleased = 2
     }
 
     static updateKeys(Window window) {
@@ -93,6 +97,25 @@ class Keys {
             m = 1
         } else if (!window.isKeyPressed(GLFW_KEY_M)) {
             m = 0
+        }
+
+
+        if (space == 1) {
+            space = 2
+        }
+        if (window.isKeyPressed(GLFW_KEY_SPACE) && space == 0) {
+            space = 1
+        } else if (!window.isKeyPressed(GLFW_KEY_SPACE)) {
+            space = 0
+        }
+
+        if (spaceReleased == 1) {
+            spaceReleased = 2
+        }
+        if (window.isKeyRelease(GLFW_KEY_SPACE) && spaceReleased == 0) {
+            spaceReleased = 1
+        } else if (!window.isKeyRelease(GLFW_KEY_SPACE)) {
+            spaceReleased = 0
         }
     }
 }

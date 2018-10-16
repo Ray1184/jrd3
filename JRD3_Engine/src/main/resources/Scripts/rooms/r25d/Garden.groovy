@@ -5,9 +5,11 @@ import Scripts.utils.Keys
 import org.joml.Quaternionf
 import org.joml.Vector3f
 import org.jrd3.engine.core.graph.SceneLight
+import org.jrd3.engine.core.graph.anim.Animation
+import org.jrd3.engine.core.items.ActorController
+import org.jrd3.engine.core.items.AnimModelItem
 import org.jrd3.engine.core.items.ModelItem
 import org.jrd3.engine.core.items.SceneNode
-import org.jrd3.engine.core.loaders.binary.BinaryFileLoader
 import org.jrd3.engine.core.sim.AbstractState
 import org.jrd3.engine.core.sim.MouseInput
 import org.jrd3.engine.core.sim.Window
@@ -16,11 +18,21 @@ import org.jrd3.engine.playenv.controllers.MovableActorController
 import org.jrd3.engine.playenv.controllers.MovableAnimController
 import org.jrd3.engine.playenv.interaction.Collisor
 import org.jrd3.engine.playenv.interaction.map.Sector
+import org.jrd3.engine.playenv.interaction.map.ViewMap
+import org.jrd3.engine.playenv.interaction.map.WalkMap
 
 import static org.lwjgl.glfw.GLFW.*
 
 actorInc = 0
 actorRot = 0
+animItem = null as AnimModelItem
+animation = null as Animation
+fordModel = null as ModelItem
+moveNode = null as SceneNode
+walkmap = null as WalkMap
+viewmap = null as ViewMap
+controller = null as ActorController
+currentSec = null as Sector
 
 def onInit(AbstractState state) {
 
@@ -29,34 +41,28 @@ def onInit(AbstractState state) {
     Env.setVar("LAST", "Garden")
     Keys.initKeys()
 
-    transformNode = new SceneNode("PL_NODE")
-    moveNode = new SceneNode("FT_NODE")
 
 
 
-    String fileName = Thread.currentThread().getContextClassLoader()
-            .getResource("Models/CrippleAnim.dae").getFile()
-    File file = new File(fileName)
-    animItem = ModelItem.get(file.getAbsolutePath())
-    animItem.setScale(0.20f)
-    animItem.setPosition(0, 0, 0)
+    animItem = Env.getDaeModel(Env.getVar("PLAYER_ANIM"))
+    animItem.setScale(0.2)
     animItem.setAnimController(new MovableAnimController())
     animation = animItem.getCurrentAnimation()
+    animation.play()
+    animation.setFirst(0)
+    animation.setLast(81)
+    animation.setCompleteAfterHalf(true)
+
     state.getScene().addModelItem(animItem)
 
-    fileName = Thread.currentThread().getContextClassLoader()
-            .getResource("Models/Ford_T.obj").getFile()
-    file = new File(fileName)
-    fordModel = ModelItem.get(file.getAbsolutePath())
+    fordModel = Env.getOBJModel("Ford_T.obj", "")
     fordModel.setScale(1f)
     fordModel.setPosition(6, 0.7, 2)
     fordModel.setRotation(new Quaternionf().rotateXYZ(0f, Math.toRadians(-140) as float, 0f))
     state.getScene().addModelItem(fordModel)
 
 
-    transformNode.attachGeometry(animItem)
-    transformNode.setPosition(0, 0, 0f)
-    moveNode.addChild(transformNode)
+    moveNode = Env.createTransformAndMoveNode("PlayerNode", animItem)
     moveNode.setPosition(0f, 1.1f, 0.0f)
     moveNode.rotate(0, 77, 0)
     state.getScene().getRootNode().addChild(moveNode)
@@ -69,13 +75,11 @@ def onInit(AbstractState state) {
     globalLight.setAmbientLight(new Vector3f(1.0f, 1.0f, 1.0f))
 
 
-    walkmap = BinaryFileLoader.loadWalkMap("/Maps/GardenW.jrd3m")
-    viewmap = BinaryFileLoader.loadViewMap("/Maps/GardenV.jrd3m")
-    pathsmap = BinaryFileLoader.loadPathsMap("/Maps/GardenP.jrd3m")
-    collisor = new Collisor(walkmap)
-    boolean stop = false
+    walkmap = Env.getWalkMap("GardenW.jrd3m")
+    viewmap = Env.getViewMap("GardenV.jrd3m")
+    def collisor = new Collisor(walkmap)
     controller = new MovableActorController(collisor)
-    controller3 = new HeightAdapterController(walkmap, 1.0f)
+    def controller3 = new HeightAdapterController(walkmap, 0.0f)
 
     Sector s1 = walkmap.getSectorByName().get("S57")
     moveNode.setPosition(s1.triangle.center2f.x, 0, s1.triangle.center2f.y)
@@ -85,10 +89,68 @@ def onInit(AbstractState state) {
 
     // Restore
     if (Env.getVar("UPDATE")) {
-        moveNode.setPosition(Env.getVar("ACTOR_P"))
-        moveNode.setRotation(Env.getVar("ACTOR_R"))
+        loadCurrentVars()
 
         Env.setVar("UPDATE", false)
+    }
+
+
+    def obj8 = Env.getVar("ALL_ROOM_OBJS")[8]
+    def obj1 = Env.getVar("ALL_ROOM_OBJS")[1]
+    def obj2 = Env.getVar("ALL_ROOM_OBJS")[2]
+    def obj3 = Env.getVar("ALL_ROOM_OBJS")[3]
+    def obj9 = Env.getVar("ALL_ROOM_OBJS")[9]
+    def obj10 = Env.getVar("ALL_ROOM_OBJS")[10]
+    def action = { o ->
+        saveCurrentVars()
+        Env.setVar("CURRENT_PICKING", o)
+        Env.fade({ v ->
+            state.app.switchState("Picking")
+        })
+    }
+    def acid = Env.dropPickeableObject(animItem, obj8, new Vector3f(3.8, -0.0, 3.5), new Quaternionf(0f, 0f, 0f, 1f),
+            0.1f, action, 1.5)
+
+    def b1 = Env.dropPickeableObject(animItem, obj1, new Vector3f(4, -0.0, 3.5), new Quaternionf(0f, 0f, 0f, 1f),
+            0.0f, action, 1.45)
+
+    def b2 = Env.dropPickeableObject(animItem, obj2, new Vector3f(4, -0.0, 3.5), new Quaternionf(0f, 0f, 0f, 1f),
+            0.0f, action, 1.45)
+
+    def b3 = Env.dropPickeableObject(animItem, obj3, new Vector3f(4, -0.0, 3.5), new Quaternionf(0f, 0f, 0f, 1f),
+            0.0f, action, 1.45)
+
+    def spark = Env.dropPickeableObject(animItem, obj9, new Vector3f(4, -0.0, 3.5), new Quaternionf(0f, 0f, 0f, 1f),
+            0.0f, action, 1.45)
+
+    def shovel = Env.dropPickeableObject(animItem, obj10, new Vector3f(4, -0.0, 3.5), new Quaternionf(0f, 0f, 0f, 1f),
+            0.0f, action, 1.45)
+
+    if (acid != null) {
+        state.scene.addModelItem(acid)
+    }
+    if (b1 != null) {
+        state.scene.addModelItem(b1)
+    }
+    if (b2 != null) {
+        state.scene.addModelItem(b2)
+    }
+    if (b3 != null) {
+        state.scene.addModelItem(b3)
+    }
+    if (spark != null) {
+        state.scene.addModelItem(spark)
+    }
+    if (shovel != null) {
+        state.scene.addModelItem(shovel)
+    }
+
+    def msg = Env.getVar("SHOW_MESSAGE")
+    if (msg != null) {
+        def time = Env.getVar("MESSAGE_TIME", 4.0)
+        def mess = Env.getMessage(msg, 0, 170, time)
+        state.scene.addText(mess)
+        Env.setVar("SHOW_MESSAGE", null)
     }
 
     Env.initFade(state.scene)
@@ -97,7 +159,7 @@ def onInit(AbstractState state) {
 
 def onUpdate(AbstractState state, Float tpf) {
 
-    animation.setSpeed((75 * tpf) as int)
+    animation.setInvSpeed((75 * tpf) as int)
     viewmap.updateView(state.getCamera(), moveNode.getPosition().x, moveNode.getPosition().z)
     state.getScene().setBackground(viewmap.getCurrentBackground())
     state.getScene().setDepthMask(viewmap.getCurrentDepthMask())
@@ -149,9 +211,8 @@ def onInput(AbstractState state, Window window, MouseInput mouseInput) {
 
 
     if (Keys.invent == 1) {
-        Env.setVar("ACTOR_P", moveNode.getPosition())
-        Env.setVar("ACTOR_R", moveNode.getRotation())
         Env.fade({ v ->
+            saveCurrentVars()
             state.app.switchState("Inventory")
         })
     }
@@ -161,6 +222,17 @@ def onInput(AbstractState state, Window window, MouseInput mouseInput) {
 
 def onClose(AbstractState state) {
 
+}
+
+def saveCurrentVars() {
+    Env.setVar("ACTOR_P", moveNode.getPosition())
+    Env.setVar("ACTOR_R", moveNode.getRotation())
+
+}
+
+def loadCurrentVars() {
+    moveNode.setPosition(Env.getVar("ACTOR_P"))
+    moveNode.setRotation(Env.getVar("ACTOR_R"))
 }
 
 this

@@ -240,7 +240,9 @@ public class Scene {
      */
     public void addModelItem(ModelItem modelItem) {
 
-        actorControllers.put(modelItem, modelItem.getControllers());
+        if (modelItem.getControllers() != null) {
+            actorControllers.put(modelItem, modelItem.getControllers());
+        }
 
         if (modelItem instanceof AnimModelItem) {
             AnimModelItem animItem = (AnimModelItem) modelItem;

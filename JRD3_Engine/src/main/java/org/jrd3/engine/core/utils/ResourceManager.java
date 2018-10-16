@@ -63,6 +63,7 @@ public enum ResourceManager {
      * @throws JRD3Exception
      */
     public Texture getOrCreateTexture(String fileName) throws JRD3Exception {
+
         ResourceManager.LOGGER.log(Level.DEBUG, "Textures Cache size: " + texturesMap.getCurrentSize());
         if (texturesMap.hasKey(fileName)) {
             Texture texture = texturesMap.retrieve(fileName);

@@ -21,13 +21,13 @@ public class MovableAnimController implements AnimController {
 
     @Override
     public void update(Animation anim, float tpf) {
-        int halfAnim = anim.isCompleteAfterHalf() ? anim.getLast() / 2 : anim.getLast();
+        int lastFrame = anim.isCompleteAfterHalf() ? anim.getLast() / 2 : anim.getLast();
         // Always finish loop animation.
         if (anim.isPlaying()) {
             anim.nextFrame();
             if (anim.getCurrentFrameIndex() == anim.getFirst() ||
-                    anim.getCurrentFrameIndex() == halfAnim - 1 ||
-                    anim.getCurrentFrameIndex() == halfAnim || anim.getCurrentFrameIndex() == halfAnim + 1) {
+                    anim.getCurrentFrameIndex() == lastFrame - 1 ||
+                    anim.getCurrentFrameIndex() == lastFrame || anim.getCurrentFrameIndex() == lastFrame + 1) {
                 if (!anim.isLoop()) {
                     anim.stop();
                 }

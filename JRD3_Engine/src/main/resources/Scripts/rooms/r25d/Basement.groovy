@@ -6,7 +6,9 @@ import org.joml.Quaternionf
 import org.joml.Vector3f
 import org.jrd3.engine.core.graph.SceneLight
 import org.jrd3.engine.core.graph.anim.Animation
+import org.jrd3.engine.core.items.ActorController
 import org.jrd3.engine.core.items.ModelItem
+import org.jrd3.engine.core.items.SceneNode
 import org.jrd3.engine.core.sim.AbstractState
 import org.jrd3.engine.core.sim.MouseInput
 import org.jrd3.engine.core.sim.Window
@@ -16,6 +18,8 @@ import org.jrd3.engine.playenv.controllers.MovableAnimController
 import org.jrd3.engine.playenv.controllers.SeekerActorController
 import org.jrd3.engine.playenv.interaction.Collisor
 import org.jrd3.engine.playenv.interaction.map.Sector
+import org.jrd3.engine.playenv.interaction.map.ViewMap
+import org.jrd3.engine.playenv.interaction.map.WalkMap
 
 import static org.lwjgl.glfw.GLFW.*
 
@@ -24,10 +28,19 @@ sec1 = "S21"
 actorInc = 0
 actorRot = 0
 
-// debug
-
-
+actorInc = 0
+actorRot = 0
 animItem = {}
+animation = null as Animation
+animItem2 = {}
+animation2 = null as Animation
+moveNode = null as SceneNode
+moveNode2 = null as SceneNode
+walkmap = null as WalkMap
+viewmap = null as ViewMap
+controller = null as ActorController
+controller2 = null as ActorController
+currentSec = null as Sector
 
 
 def onInit(AbstractState state) {
@@ -39,11 +52,13 @@ def onInit(AbstractState state) {
 
 
 
-    animItem = Env.getDaeModel("CrippleAnim.dae")
+    animItem = Env.getDaeModel(Env.getVar("PLAYER_ANIM"))
     animItem.setScale(0.2)
     animItem.setAnimController(new MovableAnimController())
-    animation = animItem.getCurrentAnimation() as Animation
-    animation.play()
+    animation = animItem.getCurrentAnimation()
+
+    animation.setFirst(0)
+    animation.setLast(81)
     animation.setCompleteAfterHalf(true)
 
 
@@ -53,8 +68,8 @@ def onInit(AbstractState state) {
     animItem2.setScale(0.2)
     animItem2.setPosition(0, 0, 0)
     animItem2.setAnimController(new MovableAnimController())
-    animation2 = animItem2.getCurrentAnimation() as Animation
-    animation2.play()
+    animation2 = animItem2.getCurrentAnimation()
+    //animation2.play()
     animation2.setCompleteAfterHalf(true)
 
 
@@ -64,7 +79,7 @@ def onInit(AbstractState state) {
 
 
     moveNode = Env.createTransformAndMoveNode("PlayerNode", animItem)
-    moveNode.setPosition(0f, 1.1f, 0.0f)
+    moveNode.setPosition(0f, 1.1f, 3.0f)
     state.getScene().getRootNode().addChild(moveNode)
 
     moveNode2 = Env.createTransformAndMoveNode("NPC1Node", animItem2)
@@ -81,27 +96,24 @@ def onInit(AbstractState state) {
 
     walkmap = Env.getWalkMap("BasementW.jrd3m")
     viewmap = Env.getViewMap("BasementV.jrd3m")
-    pathsmap = Env.getPathsMap("BasementP.jrd3m")
-    collisor = new Collisor(walkmap)
-    boolean stop = false
+    def pathsmap = Env.getPathsMap("BasementP.jrd3m")
+    def collisor = new Collisor(walkmap)
+    def stop = false
     controller = new MovableActorController(collisor)
     controller2 = new SeekerActorController(moveNode, pathsmap)
-    controller3 = new HeightAdapterController(walkmap, 1.0f)
-    controller3b = new HeightAdapterController(walkmap, 1.0f)
+    def controller3 = new HeightAdapterController(walkmap, 0.0f)
+    def controller3b = new HeightAdapterController(walkmap, 1.0f)
 
 
 
     moveNode.addController(controller)
     moveNode.addController(controller3)
-    moveNode2.addController(controller2)
+    //moveNode2.addController(controller2)
     moveNode2.addController(controller3b)
 
     // Restore
     if (Env.getVar("UPDATE")) {
-        moveNode.setPosition(Env.getVar("ACTOR_P"))
-        moveNode.setRotation(Env.getVar("ACTOR_R"))
-        moveNode2.setPosition(Env.getVar("NPC_P"))
-        moveNode2.setRotation(Env.getVar("NPC_R"))
+        loadCurrentVars()
         Env.setVar("UPDATE", false)
 
     } else {
@@ -114,6 +126,7 @@ def onInit(AbstractState state) {
         Sector sNpc1 = walkmap.getSectorByName().get("S30")
         moveNode.setPosition(sPlayer.triangle.center2f.x, 0, sPlayer.triangle.center2f.y)
         moveNode2.setPosition(sNpc1.triangle.center2f.x, 0, sNpc1.triangle.center2f.y)
+
     }
 
     // Pickable objects
@@ -128,12 +141,19 @@ def onInit(AbstractState state) {
         })
     }
     def letter = Env.dropPickeableObject(animItem, obj5, new Vector3f(-2.5, 0.7, 3.5), new Quaternionf(0f, 0f, Math.toRadians(40) as float, 1f),
-            0.04f, action)
+            0.04f, action, 1)
     if (letter != null) {
         state.scene.addModelItem(letter)
     }
 
 
+    def msg = Env.getVar("SHOW_MESSAGE")
+    if (msg != null) {
+        def time = Env.getVar("MESSAGE_TIME", 4.0)
+        def mess = Env.getMessage(msg, 0, 170, time)
+        state.scene.addText(mess)
+        Env.setVar("SHOW_MESSAGE", null)
+    }
     Env.initFade(state.scene)
 
 
@@ -141,10 +161,8 @@ def onInit(AbstractState state) {
 
 
 def onUpdate(AbstractState state, Float tpf) {
+    controller2.seeking = false
 
-
-    animation.setSpeed((75 * tpf) as int)
-    animation2.setSpeed((50 * tpf) as int)
     //transformNode3.setPosition(x as float, y as float, z as float)
     viewmap.updateView(state.getCamera(), moveNode.getPosition().x, moveNode.getPosition().z)
     state.getScene().setBackground(viewmap.getCurrentBackground())
@@ -155,16 +173,15 @@ def onUpdate(AbstractState state, Float tpf) {
 
     controller.setMovStep(actorInc)
     controller.setRotStep(actorRot)
-
-    controller2.setMovStep(0.5f)
+    //controller2.setMovStep(0.5f)
     if ((animItem as ModelItem).position.distance(animItem2.position) > 1) {
-        controller2.seeking = true
-        animation2.play()
+        //controller2.seeking = true
+        //animation2.play()
 
     } else {
-        controller2.seeking = false
+        //controller2.seeking = false
     }
-
+    Env.manageShooting(animation, state.window, tpf)
 
 }
 
@@ -175,19 +192,11 @@ def onInput(AbstractState state, Window window, MouseInput mouseInput) {
     Keys.updateKeys(window)
     actorInc = 0
     actorRot = 0
-    if (window.isKeyPressed(GLFW_KEY_W)) {
-        if (animation != null) {
-            animation.play()
+    if (window.isKeyPressed(GLFW_KEY_W) && !window.isKeyPressed(GLFW_KEY_SPACE)) {
 
-
-        }
         actorInc = 1.2f
-    } else if (window.isKeyPressed(GLFW_KEY_S)) {
-        if (animation != null) {
-            animation.play()
+    } else if (window.isKeyPressed(GLFW_KEY_S) && !window.isKeyPressed(GLFW_KEY_SPACE)) {
 
-
-        }
         actorInc = -1.2f
     }
     if (window.isKeyPressed(GLFW_KEY_A)) {
@@ -216,6 +225,7 @@ def onInput(AbstractState state, Window window, MouseInput mouseInput) {
     }
 
 
+
 }
 
 def onClose(AbstractState state) {
@@ -225,9 +235,16 @@ def onClose(AbstractState state) {
 def saveCurrentVars() {
     Env.setVar("ACTOR_P", moveNode.getPosition())
     Env.setVar("ACTOR_R", moveNode.getRotation())
-
     Env.setVar("NPC_P", moveNode2.getPosition())
     Env.setVar("NPC_R", moveNode2.getRotation())
 }
 
+def loadCurrentVars() {
+    moveNode.setPosition(Env.getVar("ACTOR_P"))
+    moveNode.setRotation(Env.getVar("ACTOR_R"))
+    moveNode2.setPosition(Env.getVar("NPC_P"))
+    moveNode2.setRotation(Env.getVar("NPC_R"))
+}
+
 this
+

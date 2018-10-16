@@ -45,6 +45,7 @@ public class HeightAdapterController implements ActorController {
         Sector s = walkMap.sampleSector(pos2D, 0.0f);
         if (s != null) {
             float calcY = s.getTriangle().calcHeightByCoords(pos2D);
+
             if (calcY != Float.NaN) {
                 actor.setPosition(pos2D.x, calcY + delta, pos2D.y);
                 oldHeight = calcY + delta;

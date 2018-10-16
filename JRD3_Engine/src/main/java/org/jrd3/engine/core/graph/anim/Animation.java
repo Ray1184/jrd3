@@ -10,10 +10,13 @@ public class Animation {
     private int currentFrame;
     private boolean playing;
     private boolean loop;
-    private int speed;
+    private int invSpeed;
+    private int jmpCount;
     private int first;
     private int last;
     private boolean completeAfterHalf;
+    private boolean cycleCompleted;
+
 
     public Animation(String name, List<AnimatedFrame> frames, double duration) {
         this.name = name;
@@ -22,10 +25,12 @@ public class Animation {
         this.duration = duration;
         playing = false;
         loop = false;
-        speed = 1;
+        invSpeed = 1;
         completeAfterHalf = false;
         first = 0;
         last = frames.size() - 1;
+        cycleCompleted = false;
+        jmpCount = 1;
     }
 
     /**
@@ -82,11 +87,21 @@ public class Animation {
      * Goes to the next frame.
      */
     public void nextFrame() {
-        int nextFrame = currentFrame + speed;
-        if (nextFrame > last) {
+        if (jmpCount < invSpeed) {
+            jmpCount++;
+            return;
+        }
+        jmpCount = 1;
+        int nextFrame = currentFrame + 1;
+        if (nextFrame >= last) {
             currentFrame = first;
         } else {
             currentFrame = nextFrame;
+        }
+        if (currentFrame + nextFrame >= last) {
+            cycleCompleted = true;
+        } else {
+            cycleCompleted = false;
         }
     }
 
@@ -150,21 +165,21 @@ public class Animation {
     }
 
     /**
-     * Getter for property 'speed'.
+     * Getter for property 'invSpeed'.
      *
-     * @return Value for property 'speed'.
+     * @return Value for property 'invSpeed'.
      */
-    public int getSpeed() {
-        return speed;
+    public int getInvSpeed() {
+        return invSpeed;
     }
 
     /**
-     * Setter for property 'speed'.
+     * Setter for property 'invSpeed'.
      *
-     * @param speed Value to set for property 'speed'.
+     * @param invSpeed Value to set for property 'invSpeed'.
      */
-    public void setSpeed(int speed) {
-        this.speed = speed;
+    public void setInvSpeed(int invSpeed) {
+        this.invSpeed = invSpeed;
     }
 
     /**
@@ -219,5 +234,23 @@ public class Animation {
      */
     public void setCompleteAfterHalf(boolean completeAfterHalf) {
         this.completeAfterHalf = completeAfterHalf;
+    }
+
+    /**
+     * Getter for property 'cycleCompleted'.
+     *
+     * @return Value for property 'cycleCompleted'.
+     */
+    public boolean isCycleCompleted() {
+        return cycleCompleted;
+    }
+
+    /**
+     * Setter for property 'cycleCompleted'.
+     *
+     * @param cycleCompleted Value to set for property 'cycleCompleted'.
+     */
+    public void setCycleCompleted(boolean cycleCompleted) {
+        this.cycleCompleted = cycleCompleted;
     }
 }
